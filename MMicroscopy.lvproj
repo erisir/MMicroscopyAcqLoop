@@ -41,6 +41,17 @@
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 			<Item Name="UI State.ctl" Type="VI" URL="../controls/UI State.ctl"/>
 		</Item>
+		<Item Name="HardwareAdapter" Type="Folder">
+			<Item Name="Support" Type="Folder">
+				<Item Name="Hardware Configuration.ctl" Type="VI" URL="../HardwareAdapter/Support/Hardware Configuration.ctl"/>
+				<Item Name="Camera Configuration.ctl" Type="VI" URL="../HardwareAdapter/Support/Camera Configuration.ctl"/>
+			</Item>
+			<Item Name="Camera" Type="Folder">
+				<Item Name="DetectCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/DetectCamera.vi"/>
+			</Item>
+			<Item Name="Configure Hardware.vi" Type="VI" URL="../HardwareAdapter/Configure Hardware.vi"/>
+			<Item Name="Initialize Hardware References.vi" Type="VI" URL="../HardwareAdapter/Initialize Hardware References.vi"/>
+		</Item>
 		<Item Name="Acquisition.lvlib" Type="Library" URL="../Acquisition/Acquisition.lvlib"/>
 		<Item Name="Logging.lvlib" Type="Library" URL="../Logging/Logging.lvlib"/>
 		<Item Name="Settings.lvlib" Type="Library" URL="../Settings/Settings.lvlib"/>
@@ -125,6 +136,7 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="PVCamNET.dll" Type="Document" URL="../HardwareAdapter/Camera/Dependencies/PVCamNET.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging Application" Type="EXE">

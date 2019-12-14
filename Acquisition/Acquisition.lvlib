@@ -10,14 +10,11 @@
 </Property>
 	<Item Name="support" Type="Folder">
 		<Item Name="Acquisition State.ctl" Type="VI" URL="../Acquisition State.ctl"/>
-		<Item Name="Hardware Configuration.ctl" Type="VI" URL="../Hardware Configuration.ctl"/>
 		<Item Name="Signal Type.ctl" Type="VI" URL="../Signal Type.ctl"/>
 	</Item>
 	<Item Name="Acquisition Message Loop.vi" Type="VI" URL="../Acquisition Message Loop.vi"/>
 	<Item Name="Acquire.vi" Type="VI" URL="../Acquire.vi"/>
-	<Item Name="Configure Hardware.vi" Type="VI" URL="../Configure Hardware.vi"/>
 	<Item Name="Generate Simulated Data.vi" Type="VI" URL="../Generate Simulated Data.vi"/>
-	<Item Name="Initialize Hardware References.vi" Type="VI" URL="../Initialize Hardware References.vi"/>
 	<Item Name="Stop Acquisition.vi" Type="VI" URL="../Stop Acquisition.vi"/>
 	<Item Name="Error Handler - Acquisition Message Loop.vi" Type="VI" URL="../Error Handler - Acquisition Message Loop.vi"/>
 </Library>
