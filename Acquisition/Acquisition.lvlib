@@ -14,7 +14,11 @@
 	</Item>
 	<Item Name="Acquisition Message Loop.vi" Type="VI" URL="../Acquisition Message Loop.vi"/>
 	<Item Name="Acquire.vi" Type="VI" URL="../Acquire.vi"/>
-	<Item Name="Generate Simulated Data.vi" Type="VI" URL="../Generate Simulated Data.vi"/>
+	<Item Name="SimpleCameraGrapImage.vi" Type="VI" URL="../SimpleCameraGrapImage.vi"/>
 	<Item Name="Stop Acquisition.vi" Type="VI" URL="../Stop Acquisition.vi"/>
 	<Item Name="Error Handler - Acquisition Message Loop.vi" Type="VI" URL="../Error Handler - Acquisition Message Loop.vi"/>
+	<Item Name="TIRFLockGetVotage.vi" Type="VI" URL="../TIRFLockGetVotage.vi"/>
+	<Item Name="MicroStageFocusGetPosition.vi" Type="VI" URL="../MicroStageFocusGetPosition.vi"/>
+	<Item Name="MicroStageTIRFGetPosition.vi" Type="VI" URL="../MicroStageTIRFGetPosition.vi"/>
+	<Item Name="NanoStageGetPositions.vi" Type="VI" URL="../NanoStageGetPositions.vi"/>
 </Library>

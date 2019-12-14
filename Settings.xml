@@ -3,7 +3,7 @@
 <Version>19.0.1</Version>
 <Cluster>
 <Name>Settings in</Name>
-<NumElts>2</NumElts>
+<NumElts>3</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
 <NumElts>2</NumElts>
@@ -30,6 +30,38 @@
 <RefKind>TDMS File</RefKind>
 <Val>0x00000000</Val>
 </Refnum>
+</Cluster>
+<Cluster>
+<Name>Camera Configuration</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Resource</Name>
+<NumElts>2</NumElts>
+<Refnum>
+<Name>CameraRef</Name>
+<RefKind>.NET Refnum</RefKind>
+<DotNetType>
+<Name>PVCamNET.Camera, PVCamNET, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+</DotNetType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>LibraryRef</Name>
+<RefKind>.NET Refnum</RefKind>
+<DotNetType>
+<Name>PVCamNET.Library, PVCamNET, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+</DotNetType>
+<Val>0x00000000</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>Setting</Name>
+<NumElts>1</NumElts>
+<DBL>
+<Name>Expouse</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
 </Cluster>
 </Cluster>
 </LVData>
