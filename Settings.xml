@@ -7,30 +7,6 @@
 <Cluster>
 <Name>Hardware Configuration</Name>
 <NumElts>2</NumElts>
-<String>
-<Name>HW Refnum &lt;Replace Me&gt;</Name>
-<Val></Val>
-</String>
-<EW>
-<Name>Signal Type &lt;Replace Me&gt;</Name>
-<Choice>Sine Wave</Choice>
-<Choice>Square with Noise</Choice>
-<Val>0</Val>
-</EW>
-</Cluster>
-<Cluster>
-<Name>Logging Configuration</Name>
-<NumElts>2</NumElts>
-<Path>
-<Name>Log File Base Path</Name>
-<Val>C:\Users\Daguan Nong\Document\LabVIEW Data\Logged Data.tdms</Val>
-</Path>
-<Refnum>
-<Name>TDMS File Reference</Name>
-<RefKind>TDMS File</RefKind>
-<Val>0x00000000</Val>
-</Refnum>
-</Cluster>
 <Cluster>
 <Name>Camera Configuration</Name>
 <NumElts>2</NumElts>
@@ -62,6 +38,54 @@
 <Val>0.00000000000000</Val>
 </DBL>
 </Cluster>
+</Cluster>
+<Cluster>
+<Name>SimpleCamera</Name>
+<NumElts>1</NumElts>
+<Refnum>
+<Name>Session Out</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>IMAQdx</RefType>
+<Val></Val>
+</Refnum>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Logging Configuration</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Log File Base Path</Name>
+<Val>C:\Users\Daguan Nong\Document\LabVIEW Data\Logged Data.tdms</Val>
+</Path>
+<Refnum>
+<Name>TDMS File Reference</Name>
+<RefKind>TDMS File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>UI Configuration</Name>
+<NumElts>5</NumElts>
+<Boolean>
+<Name>Camera</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>NanoStage</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>MicroStageFocus</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>MicroStageTIRF</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>TIRFLock</Name>
+<Val>0</Val>
+</Boolean>
 </Cluster>
 </Cluster>
 </LVData>
