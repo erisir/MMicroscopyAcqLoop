@@ -21,4 +21,5 @@
 	<Item Name="MicroStageFocusGetPosition.vi" Type="VI" URL="../MicroStageFocusGetPosition.vi"/>
 	<Item Name="MicroStageTIRFGetPosition.vi" Type="VI" URL="../MicroStageTIRFGetPosition.vi"/>
 	<Item Name="NanoStageGetPositions.vi" Type="VI" URL="../NanoStageGetPositions.vi"/>
+	<Item Name="Prime95BCameraGrapImage.vi" Type="VI" URL="../../HardwareAdapter/Camera/Prime95BCameraGrapImage.vi"/>
 </Library>

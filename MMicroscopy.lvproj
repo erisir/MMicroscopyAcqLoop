@@ -47,6 +47,7 @@
 			<Item Name="Acquired Data.ctl" Type="VI" URL="../controls/Acquired Data.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 			<Item Name="UI State.ctl" Type="VI" URL="../controls/UI State.ctl"/>
+			<Item Name="UI Configuration.ctl" Type="VI" URL="../controls/UI Configuration.ctl"/>
 		</Item>
 		<Item Name="HardwareAdapter" Type="Folder">
 			<Item Name="Support" Type="Folder">
@@ -54,16 +55,19 @@
 				<Item Name="Camera Configuration.ctl" Type="VI" URL="../HardwareAdapter/Support/Camera Configuration.ctl"/>
 			</Item>
 			<Item Name="Camera" Type="Folder">
+				<Item Name="TriggerCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/TriggerCamera.vi"/>
 				<Item Name="DetectCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/DetectCamera.vi"/>
+				<Item Name="Prime95BCameraSimpleOperation.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraSimpleOperation.vi"/>
+				<Item Name="CloseCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/CloseCamera.vi"/>
 			</Item>
 			<Item Name="Configure Hardware.vi" Type="VI" URL="../HardwareAdapter/Configure Hardware.vi"/>
 			<Item Name="Initialize Hardware References.vi" Type="VI" URL="../HardwareAdapter/Initialize Hardware References.vi"/>
+			<Item Name="Release Hardware References.vi" Type="VI" URL="../HardwareAdapter/Release Hardware References.vi"/>
 		</Item>
 		<Item Name="Acquisition.lvlib" Type="Library" URL="../Acquisition/Acquisition.lvlib"/>
 		<Item Name="Logging.lvlib" Type="Library" URL="../Logging/Logging.lvlib"/>
 		<Item Name="Settings.lvlib" Type="Library" URL="../Settings/Settings.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="UI Configuration.ctl" Type="VI" URL="../controls/UI Configuration.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -132,12 +136,19 @@
 				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
 				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
 				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
+				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
 			</Item>
 			<Item Name="PVCamNET.dll" Type="Document" URL="../HardwareAdapter/Camera/Dependencies/PVCamNET.dll"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
