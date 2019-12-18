@@ -55,10 +55,28 @@
 				<Item Name="Camera Configuration.ctl" Type="VI" URL="../HardwareAdapter/Support/Camera Configuration.ctl"/>
 			</Item>
 			<Item Name="Camera" Type="Folder">
+				<Item Name="DetectAndOpenCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/DetectAndOpenCamera.vi"/>
 				<Item Name="TriggerCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/TriggerCamera.vi"/>
-				<Item Name="DetectCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/DetectCamera.vi"/>
-				<Item Name="Prime95BCameraSimpleOperation.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraSimpleOperation.vi"/>
+				<Item Name="Prime95BCameraGrapImage.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraGrapImage.vi"/>
 				<Item Name="CloseCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/CloseCamera.vi"/>
+				<Item Name="SimpleCameraGrapImage.vi" Type="VI" URL="../Acquisition/SimpleCameraGrapImage.vi"/>
+				<Item Name="Prime95BCameraSimpleOperation.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraSimpleOperation.vi"/>
+			</Item>
+			<Item Name="Stages" Type="Folder">
+				<Item Name="BaseFunction" Type="Folder">
+					<Item Name="Linear Space.vi" Type="VI" URL="../HardwareAdapter/Stages/Dependencies/ReadWriteN/Linear Space.vi"/>
+					<Item Name="Piezo_Simple_Control.vi" Type="VI" URL="../HardwareAdapter/Stages/Dependencies/ReadWriteN/Piezo_Simple_Control.vi"/>
+					<Item Name="StandardInit.vi" Type="VI" URL="../HardwareAdapter/Stages/Dependencies/ReadWriteN/StandardInit.vi"/>
+					<Item Name="StandardRelease.vi" Type="VI" URL="../HardwareAdapter/Stages/Dependencies/ReadWriteN/StandardRelease.vi"/>
+				</Item>
+				<Item Name="DetectAndOpenStages.vi" Type="VI" URL="../HardwareAdapter/Stages/DetectAndOpenStages.vi"/>
+				<Item Name="NanoStageGetPositions.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageGetPositions.vi"/>
+				<Item Name="NanoStageSetPositions.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageSetPositions.vi"/>
+				<Item Name="MicroStageGetPosition.vi" Type="VI" URL="../HardwareAdapter/Stages/MicroStageGetPosition.vi"/>
+				<Item Name="MicroStageSetPosition.vi" Type="VI" URL="../HardwareAdapter/Stages/MicroStageSetPosition.vi"/>
+				<Item Name="TIRFLockGetVotage.vi" Type="VI" URL="../HardwareAdapter/Stages/TIRFLockGetVotage.vi"/>
+				<Item Name="TIRFLockSetVotage.vi" Type="VI" URL="../HardwareAdapter/Stages/TIRFLockSetVotage.vi"/>
+				<Item Name="CloseAllStages.vi" Type="VI" URL="../HardwareAdapter/Stages/CloseAllStages.vi"/>
 			</Item>
 			<Item Name="Configure Hardware.vi" Type="VI" URL="../HardwareAdapter/Configure Hardware.vi"/>
 			<Item Name="Initialize Hardware References.vi" Type="VI" URL="../HardwareAdapter/Initialize Hardware References.vi"/>
@@ -68,6 +86,7 @@
 		<Item Name="Logging.lvlib" Type="Library" URL="../Logging/Logging.lvlib"/>
 		<Item Name="Settings.lvlib" Type="Library" URL="../Settings/Settings.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Global.vi" Type="VI" URL="../Global.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -151,6 +170,11 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Madlib.dll" Type="Document" URL="../HardwareAdapter/Stages/Dependencies/Madlib.dll"/>
+			<Item Name="MicroDrive.dll" Type="Document" URL="../HardwareAdapter/Stages/Dependencies/MicroDrive.dll"/>
+			<Item Name="TIRF-Lock.dll" Type="Document" URL="../HardwareAdapter/Stages/Dependencies/TIRF-Lock.dll"/>
+			<Item Name="Read_Tirf.vi" Type="VI" URL="/C/Program Files/Mad City Labs/TIRF-Lock/LabVIEW Examples/Read_Tirf.vi"/>
+			<Item Name="TIRF-Lock.dll" Type="Document" URL="/C/Program Files/Mad City Labs/TIRF-Lock/LabVIEW Examples/TIRF-Lock.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging Application" Type="EXE">

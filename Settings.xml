@@ -6,7 +6,7 @@
 <NumElts>3</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
-<NumElts>2</NumElts>
+<NumElts>3</NumElts>
 <Cluster>
 <Name>Camera Configuration</Name>
 <NumElts>2</NumElts>
@@ -40,7 +40,10 @@
 </Cluster>
 </Cluster>
 <Cluster>
-<Name>SimpleCamera</Name>
+<Name>SimpleCamera Configuration</Name>
+<NumElts>1</NumElts>
+<Cluster>
+<Name>Resource</Name>
 <NumElts>1</NumElts>
 <Refnum>
 <Name>Session Out</Name>
@@ -51,21 +54,93 @@
 </Cluster>
 </Cluster>
 <Cluster>
-<Name>Logging Configuration</Name>
+<Name>Stages Configuration</Name>
 <NumElts>2</NumElts>
+<Cluster>
+<Name>Resource</Name>
+<NumElts>3</NumElts>
+<I32>
+<Name>NanoStage Handle</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>MicroStage Handle</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>TirfLock Handle</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>SettingValues</Name>
+<NumElts>3</NumElts>
+<Cluster>
+<Name>NanoState</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>Time</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>X</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Y</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Z</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>MicroState</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Time 2</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Z</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>TirfLock</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>Time</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>X</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Y</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Logging Configuration</Name>
+<NumElts>1</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
 <Val>C:\Users\Daguan Nong\Document\LabVIEW Data\Logged Data.tdms</Val>
 </Path>
-<Refnum>
-<Name>TDMS File Reference</Name>
-<RefKind>TDMS File</RefKind>
-<Val>0x00000000</Val>
-</Refnum>
 </Cluster>
 <Cluster>
 <Name>UI Configuration</Name>
-<NumElts>5</NumElts>
+<NumElts>4</NumElts>
 <Boolean>
 <Name>Camera</Name>
 <Val>0</Val>
@@ -75,11 +150,7 @@
 <Val>0</Val>
 </Boolean>
 <Boolean>
-<Name>MicroStageFocus</Name>
-<Val>0</Val>
-</Boolean>
-<Boolean>
-<Name>MicroStageTIRF</Name>
+<Name>MicroStage</Name>
 <Val>0</Val>
 </Boolean>
 <Boolean>

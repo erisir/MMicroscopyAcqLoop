@@ -14,12 +14,6 @@
 	</Item>
 	<Item Name="Acquisition Message Loop.vi" Type="VI" URL="../Acquisition Message Loop.vi"/>
 	<Item Name="Acquire.vi" Type="VI" URL="../Acquire.vi"/>
-	<Item Name="SimpleCameraGrapImage.vi" Type="VI" URL="../SimpleCameraGrapImage.vi"/>
 	<Item Name="Stop Acquisition.vi" Type="VI" URL="../Stop Acquisition.vi"/>
 	<Item Name="Error Handler - Acquisition Message Loop.vi" Type="VI" URL="../Error Handler - Acquisition Message Loop.vi"/>
-	<Item Name="TIRFLockGetVotage.vi" Type="VI" URL="../TIRFLockGetVotage.vi"/>
-	<Item Name="MicroStageFocusGetPosition.vi" Type="VI" URL="../MicroStageFocusGetPosition.vi"/>
-	<Item Name="MicroStageTIRFGetPosition.vi" Type="VI" URL="../MicroStageTIRFGetPosition.vi"/>
-	<Item Name="NanoStageGetPositions.vi" Type="VI" URL="../NanoStageGetPositions.vi"/>
-	<Item Name="Prime95BCameraGrapImage.vi" Type="VI" URL="../../HardwareAdapter/Camera/Prime95BCameraGrapImage.vi"/>
 </Library>
