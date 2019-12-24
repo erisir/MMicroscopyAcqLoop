@@ -39,9 +39,11 @@
 			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
 			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/User Event - Stop.lvlib"/>
 			<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../support/Set Enable State on Multiple Controls.vi"/>
+			<Item Name="Set Enable State on Multiple Controls(Cluster).vi" Type="VI" URL="../support/Set Enable State on Multiple Controls(Cluster).vi"/>
 			<Item Name="Check Loop Error.vi" Type="VI" URL="../support/Check Loop Error.vi"/>
 			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
+			<Item Name="Set All Controls Status.vi" Type="VI" URL="../support/Set All Controls Status.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="Acquired Data.ctl" Type="VI" URL="../controls/Acquired Data.ctl"/>
@@ -173,8 +175,7 @@
 			<Item Name="Madlib.dll" Type="Document" URL="../HardwareAdapter/Stages/Dependencies/Madlib.dll"/>
 			<Item Name="MicroDrive.dll" Type="Document" URL="../HardwareAdapter/Stages/Dependencies/MicroDrive.dll"/>
 			<Item Name="TIRF-Lock.dll" Type="Document" URL="../HardwareAdapter/Stages/Dependencies/TIRF-Lock.dll"/>
-			<Item Name="Read_Tirf.vi" Type="VI" URL="/C/Program Files/Mad City Labs/TIRF-Lock/LabVIEW Examples/Read_Tirf.vi"/>
-			<Item Name="TIRF-Lock.dll" Type="Document" URL="/C/Program Files/Mad City Labs/TIRF-Lock/LabVIEW Examples/TIRF-Lock.dll"/>
+			<Item Name="Read_Tirf.vi" Type="VI" URL="../HardwareAdapter/Stages/Read_Tirf.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging Application" Type="EXE">

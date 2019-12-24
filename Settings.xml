@@ -35,7 +35,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>Expouse</Name>
-<Val>0.00000000000000</Val>
+<Val>30.00000000000000</Val>
 </DBL>
 </Cluster>
 </Cluster>
@@ -49,7 +49,7 @@
 <Name>Session Out</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>IMAQdx</RefType>
-<Val></Val>
+<Val>cam0</Val>
 </Refnum>
 </Cluster>
 </Cluster>
@@ -143,19 +143,19 @@
 <NumElts>4</NumElts>
 <Boolean>
 <Name>Camera</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>NanoStage</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>MicroStage</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>TIRFLock</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 </Cluster>
 </Cluster>
