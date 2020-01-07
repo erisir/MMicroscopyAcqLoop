@@ -6,7 +6,7 @@
 <NumElts>3</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
-<NumElts>3</NumElts>
+<NumElts>4</NumElts>
 <Cluster>
 <Name>Camera Configuration</Name>
 <NumElts>2</NumElts>
@@ -35,7 +35,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>Expouse</Name>
-<Val>30.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 </Cluster>
 </Cluster>
@@ -49,7 +49,7 @@
 <Name>Session Out</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>IMAQdx</RefType>
-<Val>cam0</Val>
+<Val></Val>
 </Refnum>
 </Cluster>
 </Cluster>
@@ -60,15 +60,15 @@
 <Name>Resource</Name>
 <NumElts>3</NumElts>
 <I32>
-<Name>NanoStage Handle</Name>
+<Name>NanoStage Ref</Name>
 <Val>0</Val>
 </I32>
 <I32>
-<Name>MicroStage Handle</Name>
+<Name>MicroStage Ref</Name>
 <Val>0</Val>
 </I32>
 <I32>
-<Name>TirfLock Handle</Name>
+<Name>TirfLock Ref</Name>
 <Val>0</Val>
 </I32>
 </Cluster>
@@ -129,6 +129,102 @@
 </Cluster>
 </Cluster>
 </Cluster>
+<Cluster>
+<Name>Lasers Configuration</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>SettingValues</Name>
+<NumElts>6</NumElts>
+<I32>
+<Name>405 Power</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>488 Power</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>532 Power</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>561 Power</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>647 Power</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>785 Power</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Resource</Name>
+<NumElts>2</NumElts>
+<Refnum>
+<Name>Library Ref</Name>
+<RefKind>.NET Refnum</RefKind>
+<DotNetType>
+<Name>Oxxius_Boxx.Lasers, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+</DotNetType>
+<Val>0x00000000</Val>
+</Refnum>
+<Cluster>
+<Name>Lasers Ref</Name>
+<NumElts>6</NumElts>
+<Refnum>
+<Name>405 Ref</Name>
+<RefKind>.NET Refnum</RefKind>
+<DotNetType>
+<Name>Oxxius_Boxx.LaserBoxx, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+</DotNetType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>488 Ref</Name>
+<RefKind>.NET Refnum</RefKind>
+<DotNetType>
+<Name>Oxxius_Boxx.LaserBoxx, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+</DotNetType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>532 Ref</Name>
+<RefKind>.NET Refnum</RefKind>
+<DotNetType>
+<Name>Oxxius_Boxx.LaserBoxx, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+</DotNetType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>561 Ref</Name>
+<RefKind>.NET Refnum</RefKind>
+<DotNetType>
+<Name>Oxxius_Boxx.LaserBoxx, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+</DotNetType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>647 Ref</Name>
+<RefKind>.NET Refnum</RefKind>
+<DotNetType>
+<Name>Oxxius_Boxx.LaserBoxx, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+</DotNetType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>785 Ref</Name>
+<RefKind>.NET Refnum</RefKind>
+<DotNetType>
+<Name>Oxxius_Boxx.LaserBoxx, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+</DotNetType>
+<Val>0x00000000</Val>
+</Refnum>
+</Cluster>
+</Cluster>
+</Cluster>
 </Cluster>
 <Cluster>
 <Name>Logging Configuration</Name>
@@ -139,24 +235,88 @@
 </Path>
 </Cluster>
 <Cluster>
-<Name>UI Configuration</Name>
+<Name>HardWare Status</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>CameraAndStages</Name>
 <NumElts>4</NumElts>
 <Boolean>
 <Name>Camera</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>NanoStage</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>MicroStage</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>TIRFLock</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
+</Cluster>
+<Cluster>
+<Name>Lasers</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>IsConnected</Name>
+<NumElts>6</NumElts>
+<Boolean>
+<Name>405</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>488</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>532</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>561</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>647</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>785</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>IsOpened</Name>
+<NumElts>6</NumElts>
+<Boolean>
+<Name>405</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>488</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>532</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>561</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>647</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>785</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Cluster>
 </Cluster>
 </Cluster>
 </LVData>
