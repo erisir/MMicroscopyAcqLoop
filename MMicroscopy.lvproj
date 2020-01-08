@@ -66,21 +66,22 @@
 			</Item>
 			<Item Name="Stages" Type="Folder">
 				<Item Name="DetectAndConnectStages.vi" Type="VI" URL="../HardwareAdapter/Stages/DetectAndConnectStages.vi"/>
-				<Item Name="NanoStageGetPositions.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageGetPositions.vi"/>
-				<Item Name="NanoStageSetPositions.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageSetPositions.vi"/>
+				<Item Name="NanoStageSetMultPositions.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageSetMultPositions.vi"/>
+				<Item Name="NanoStageGetMultPositions.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageGetMultPositions.vi"/>
+				<Item Name="NanoStageSetPosition.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageSetPosition.vi"/>
+				<Item Name="NanoStageSetRelativePosition.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageSetRelativePosition.vi"/>
+				<Item Name="NanoStageGetPosition.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageGetPosition.vi"/>
 				<Item Name="MicroStageGetPosition.vi" Type="VI" URL="../HardwareAdapter/Stages/MicroStageGetPosition.vi"/>
-				<Item Name="MicroStageSetPosition.vi" Type="VI" URL="../HardwareAdapter/Stages/MicroStageSetPosition.vi"/>
+				<Item Name="MicroStageSetRelativePosition.vi" Type="VI" URL="../HardwareAdapter/Stages/MicroStageSetRelativePosition.vi"/>
 				<Item Name="TIRFLockGetVotage.vi" Type="VI" URL="../HardwareAdapter/Stages/TIRFLockGetVotage.vi"/>
-				<Item Name="TIRFLockSetVotage.vi" Type="VI" URL="../HardwareAdapter/Stages/TIRFLockSetVotage.vi"/>
 				<Item Name="DisconnectAndReleaseAllStages.vi" Type="VI" URL="../HardwareAdapter/Stages/DisconnectAndReleaseAllStages.vi"/>
 			</Item>
 			<Item Name="Lasers" Type="Folder">
 				<Item Name="DetectAndConnectLasers.vi" Type="VI" URL="../HardwareAdapter/Lasers/DetectAndConnectLasers.vi"/>
 				<Item Name="DisconnectAndReleaseAllLasers.vi" Type="VI" URL="../HardwareAdapter/Lasers/DisconnectAndReleaseAllLasers.vi"/>
 				<Item Name="LaserGetPower.vi" Type="VI" URL="../HardwareAdapter/Lasers/LaserGetPower.vi"/>
-				<Item Name="LaserGetVotage.vi" Type="VI" URL="../HardwareAdapter/Lasers/LaserGetVotage.vi"/>
 				<Item Name="LaserSetPower.vi" Type="VI" URL="../HardwareAdapter/Lasers/LaserSetPower.vi"/>
-				<Item Name="LaserSetVotage.vi" Type="VI" URL="../HardwareAdapter/Lasers/LaserSetVotage.vi"/>
+				<Item Name="LaserSwitch.vi" Type="VI" URL="../HardwareAdapter/Lasers/LaserSwitch.vi"/>
 			</Item>
 			<Item Name="Configure Hardware.vi" Type="VI" URL="../HardwareAdapter/Configure Hardware.vi"/>
 			<Item Name="Initialize Hardware References.vi" Type="VI" URL="../HardwareAdapter/Initialize Hardware References.vi"/>

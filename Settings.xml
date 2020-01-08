@@ -135,30 +135,30 @@
 <Cluster>
 <Name>SettingValues</Name>
 <NumElts>6</NumElts>
-<I32>
+<SGL>
 <Name>405 Power</Name>
-<Val>0</Val>
-</I32>
-<I32>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
 <Name>488 Power</Name>
-<Val>0</Val>
-</I32>
-<I32>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
 <Name>532 Power</Name>
-<Val>0</Val>
-</I32>
-<I32>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
 <Name>561 Power</Name>
-<Val>0</Val>
-</I32>
-<I32>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
 <Name>647 Power</Name>
-<Val>0</Val>
-</I32>
-<I32>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
 <Name>785 Power</Name>
-<Val>0</Val>
-</I32>
+<Val>0.00000</Val>
+</SGL>
 </Cluster>
 <Cluster>
 <Name>Resource</Name>
