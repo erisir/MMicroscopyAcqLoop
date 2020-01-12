@@ -109,7 +109,7 @@
 </Cluster>
 <Cluster>
 <Name>TirfLock</Name>
-<NumElts>4</NumElts>
+<NumElts>5</NumElts>
 <DBL>
 <Name>Time</Name>
 <Val>0.00000000000000</Val>
@@ -124,6 +124,10 @@
 </DBL>
 <DBL>
 <Name>Sum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Calbrate</Name>
 <Val>0.00000000000000</Val>
 </DBL>
 </Cluster>

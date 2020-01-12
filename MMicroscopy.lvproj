@@ -44,6 +44,7 @@
 			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 			<Item Name="Set All Controls Status.vi" Type="VI" URL="../support/Set All Controls Status.vi"/>
+			<Item Name="TIRF-LockCalbrate.vi" Type="VI" URL="../support/TIRF-LockCalbrate.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="Acquired Data.ctl" Type="VI" URL="../controls/Acquired Data.ctl"/>
@@ -161,6 +162,7 @@
 				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
 				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
 			<Item Name="PVCamNET.dll" Type="Document" URL="../HardwareAdapter/Camera/Dependencies/PVCamNET.dll"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
@@ -180,6 +182,8 @@
 			<Item Name="TIRF-Lock.dll" Type="Document" URL="../HardwareAdapter/Stages/Dependencies/TIRF-Lock.dll"/>
 			<Item Name="Read_Tirf.vi" Type="VI" URL="../HardwareAdapter/Stages/Read_Tirf.vi"/>
 			<Item Name="Oxxius_Boxx.dll" Type="Document" URL="../HardwareAdapter/Lasers/Dependencies/Oxxius_Boxx.dll"/>
+			<Item Name="Calibrate.vi" Type="VI" URL="../HardwareAdapter/Stages/Dependencies/Calibrate.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="MMicroscopy" Type="EXE">
