@@ -31,6 +31,7 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Data Queue" Type="Folder">
 				<Item Name="Support" Type="Folder">
+					<Item Name="DataQueuesAndNotifier.ctl" Type="VI" URL="../Acquisition/DataQueuesAndNotifier.ctl"/>
 					<Item Name="Data Cluster.ctl" Type="VI" URL="../support/Data Queue/Support/Data Cluster.ctl"/>
 				</Item>
 				<Item Name="Create Data Queues.vi" Type="VI" URL="../support/Data Queue/Create Data Queues.vi"/>
@@ -59,40 +60,50 @@
 			</Item>
 			<Item Name="Camera" Type="Folder">
 				<Item Name="DetectAndConnectCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/DetectAndConnectCamera.vi"/>
-				<Item Name="TriggerCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/TriggerCamera.vi"/>
+				<Item Name="StartLive.vi" Type="VI" URL="../HardwareAdapter/Camera/StartLive.vi"/>
+				<Item Name="StartSequence.vi" Type="VI" URL="../HardwareAdapter/Camera/StartSequence.vi"/>
 				<Item Name="Prime95BCameraGrapImage.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraGrapImage.vi"/>
 				<Item Name="DisconnectAndReleaseCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/DisconnectAndReleaseCamera.vi"/>
 				<Item Name="SimpleCameraGrapImage.vi" Type="VI" URL="../Acquisition/SimpleCameraGrapImage.vi"/>
 				<Item Name="Prime95BCameraSimpleOperation.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraSimpleOperation.vi"/>
 			</Item>
 			<Item Name="Stages" Type="Folder">
+				<Item Name="Stage Ctrl.ctl" Type="VI" URL="../HardwareAdapter/Stages/Stage Ctrl.ctl"/>
 				<Item Name="DetectAndConnectStages.vi" Type="VI" URL="../HardwareAdapter/Stages/DetectAndConnectStages.vi"/>
 				<Item Name="NanoStageSetMultPositions.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageSetMultPositions.vi"/>
 				<Item Name="NanoStageGetMultPositions.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageGetMultPositions.vi"/>
 				<Item Name="NanoStageSetPosition.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageSetPosition.vi"/>
-				<Item Name="NanoStageSetRelativePosition.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageSetRelativePosition.vi"/>
+				<Item Name="Package stage data to cluster.vi" Type="VI" URL="../HardwareAdapter/Stages/Package stage data to cluster.vi"/>
 				<Item Name="NanoStageGetPosition.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageGetPosition.vi"/>
 				<Item Name="MicroStageGetPosition.vi" Type="VI" URL="../HardwareAdapter/Stages/MicroStageGetPosition.vi"/>
 				<Item Name="MicroStageSetRelativePosition.vi" Type="VI" URL="../HardwareAdapter/Stages/MicroStageSetRelativePosition.vi"/>
+				<Item Name="NanoStageSetRelativePosition.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageSetRelativePosition.vi"/>
 				<Item Name="TIRFLockGetVotage.vi" Type="VI" URL="../HardwareAdapter/Stages/TIRFLockGetVotage.vi"/>
 				<Item Name="DisconnectAndReleaseAllStages.vi" Type="VI" URL="../HardwareAdapter/Stages/DisconnectAndReleaseAllStages.vi"/>
 			</Item>
 			<Item Name="Lasers" Type="Folder">
+				<Item Name="Laser Ctrl.ctl" Type="VI" URL="../HardwareAdapter/Lasers/Laser Ctrl.ctl"/>
 				<Item Name="DetectAndConnectLasers.vi" Type="VI" URL="../HardwareAdapter/Lasers/DetectAndConnectLasers.vi"/>
 				<Item Name="DisconnectAndReleaseAllLasers.vi" Type="VI" URL="../HardwareAdapter/Lasers/DisconnectAndReleaseAllLasers.vi"/>
 				<Item Name="LaserGetPower.vi" Type="VI" URL="../HardwareAdapter/Lasers/LaserGetPower.vi"/>
 				<Item Name="LaserSetPower.vi" Type="VI" URL="../HardwareAdapter/Lasers/LaserSetPower.vi"/>
 				<Item Name="LaserSwitch.vi" Type="VI" URL="../HardwareAdapter/Lasers/LaserSwitch.vi"/>
 			</Item>
+			<Item Name="Read Stage And Lasers Values.vi" Type="VI" URL="../HardwareAdapter/Read Stage And Lasers Values.vi"/>
 			<Item Name="Configure Hardware.vi" Type="VI" URL="../HardwareAdapter/Configure Hardware.vi"/>
 			<Item Name="Initialize Hardware References.vi" Type="VI" URL="../HardwareAdapter/Initialize Hardware References.vi"/>
 			<Item Name="Release Hardware References.vi" Type="VI" URL="../HardwareAdapter/Release Hardware References.vi"/>
+			<Item Name="Control Message Loop.vi" Type="VI" URL="../Acquisition/Control Message Loop.vi"/>
+		</Item>
+		<Item Name="Conversion" Type="Folder">
+			<Item Name="RGBToU8Intensity.vi" Type="VI" URL="../Conversion/RGBToU8Intensity.vi"/>
 		</Item>
 		<Item Name="Acquisition.lvlib" Type="Library" URL="../Acquisition/Acquisition.lvlib"/>
 		<Item Name="Logging.lvlib" Type="Library" URL="../Logging/Logging.lvlib"/>
 		<Item Name="Settings.lvlib" Type="Library" URL="../Settings/Settings.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Global.vi" Type="VI" URL="../Global.vi"/>
+		<Item Name="Create Folder And Files.vi" Type="VI" URL="../Logging/Create Folder And Files.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -107,7 +118,6 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
@@ -163,6 +173,14 @@
 				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
+				<Item Name="IMAQ Write TIFF File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF File 2"/>
+				<Item Name="IMAQ Write PNG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write PNG File 2"/>
+				<Item Name="IMAQ Write JPEG2000 File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG2000 File 2"/>
+				<Item Name="IMAQ Write JPEG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG File 2"/>
+				<Item Name="IMAQ Write Image And Vision Info File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info File 2"/>
+				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
+				<Item Name="IMAQ Write File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write File 2"/>
 			</Item>
 			<Item Name="PVCamNET.dll" Type="Document" URL="../HardwareAdapter/Camera/Dependencies/PVCamNET.dll"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">

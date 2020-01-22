@@ -232,10 +232,26 @@
 </Cluster>
 <Cluster>
 <Name>Logging Configuration</Name>
-<NumElts>1</NumElts>
+<NumElts>5</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
 <Val>C:\Users\Daguan Nong\Document\LabVIEW Data\Logged Data.tdms</Val>
+</Path>
+<String>
+<Name>FilePrefix</Name>
+<Val></Val>
+</String>
+<Path>
+<Name>TiffFileFullPath</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>HardWareInfoFileFullPath</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>NoteFileFullPath</Name>
+<Val></Val>
 </Path>
 </Cluster>
 <Cluster>
