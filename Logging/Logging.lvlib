@@ -12,6 +12,7 @@
 		<Item Name="Logging Configuration.ctl" Type="VI" URL="../Logging Configuration.ctl"/>
 		<Item Name="Logging State.ctl" Type="VI" URL="../Logging State.ctl"/>
 	</Item>
+	<Item Name="Create Folder And Files.vi" Type="VI" URL="../Create Folder And Files.vi"/>
 	<Item Name="Logging Message Loop.vi" Type="VI" URL="../Logging Message Loop.vi"/>
 	<Item Name="Log Data.vi" Type="VI" URL="../Log Data.vi"/>
 	<Item Name="Flush Data to Log File.vi" Type="VI" URL="../Flush Data to Log File.vi"/>

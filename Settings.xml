@@ -2,7 +2,7 @@
 <LVData xmlns="http://www.ni.com/LVData">
 <Version>19.0.1</Version>
 <Cluster>
-<Name>Settings in</Name>
+<Name>Settings</Name>
 <NumElts>3</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
@@ -32,10 +32,18 @@
 </Cluster>
 <Cluster>
 <Name>Setting</Name>
-<NumElts>1</NumElts>
+<NumElts>3</NumElts>
 <DBL>
 <Name>Expouse</Name>
-<Val>0.00000000000000</Val>
+<Val>100.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Frames</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Interval</Name>
+<Val>100.00000000000000</Val>
 </DBL>
 </Cluster>
 </Cluster>
@@ -49,7 +57,7 @@
 <Name>Session Out</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>IMAQdx</RefType>
-<Val></Val>
+<Val>cam0</Val>
 </Refnum>
 </Cluster>
 </Cluster>
@@ -173,7 +181,7 @@
 <DotNetType>
 <Name>Oxxius_Boxx.Lasers, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x00000000</Val>
+<Val>0xE3600000</Val>
 </Refnum>
 <Cluster>
 <Name>Lasers Ref</Name>
@@ -235,7 +243,7 @@
 <NumElts>5</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\Daguan Nong\Document\LabVIEW Data\Logged Data.tdms</Val>
+<Val>C:\MMTest</Val>
 </Path>
 <String>
 <Name>FilePrefix</Name>
@@ -262,19 +270,19 @@
 <NumElts>4</NumElts>
 <Boolean>
 <Name>Camera</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>NanoStage</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>MicroStage</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>TIRFLock</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 </Cluster>
 <Cluster>

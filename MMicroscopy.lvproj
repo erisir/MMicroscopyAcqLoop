@@ -59,6 +59,14 @@
 				<Item Name="Camera Configuration.ctl" Type="VI" URL="../HardwareAdapter/Support/Camera Configuration.ctl"/>
 			</Item>
 			<Item Name="Camera" Type="Folder">
+				<Item Name="CommonFiles" Type="Folder">
+					<Item Name="PropertyChangedEventCallbackForBufferIndex.vi" Type="VI" URL="../HardwareAdapter/Camera/Dependencies/CommonFiles/PropertyChangedEventCallbackForBufferIndex.vi"/>
+					<Item Name="PropertyChangedEventCallbackForBufferIndexDroppedFramesDiskStreamDroppedFrameAvailRam.vi" Type="VI" URL="../HardwareAdapter/Camera/Dependencies/CommonFiles/PropertyChangedEventCallbackForBufferIndexDroppedFramesDiskStreamDroppedFrameAvailRam.vi"/>
+					<Item Name="PropertyChangedEventCallbackForCameraState.vi" Type="VI" URL="../HardwareAdapter/Camera/Dependencies/CommonFiles/PropertyChangedEventCallbackForCameraState.vi"/>
+					<Item Name="PropertyChangedEventCallbackForCapturedFrames.vi" Type="VI" URL="../HardwareAdapter/Camera/Dependencies/CommonFiles/PropertyChangedEventCallbackForCapturedFrames.vi"/>
+					<Item Name="PropertyChangedEventCallbackForHistogram.vi" Type="VI" URL="../HardwareAdapter/Camera/Dependencies/CommonFiles/PropertyChangedEventCallbackForHistogram.vi"/>
+					<Item Name="PropertyChangedEventCallbackForScrollBar.vi" Type="VI" URL="../HardwareAdapter/Camera/Dependencies/CommonFiles/PropertyChangedEventCallbackForScrollBar.vi"/>
+				</Item>
 				<Item Name="DetectAndConnectCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/DetectAndConnectCamera.vi"/>
 				<Item Name="StartLive.vi" Type="VI" URL="../HardwareAdapter/Camera/StartLive.vi"/>
 				<Item Name="StartSequence.vi" Type="VI" URL="../HardwareAdapter/Camera/StartSequence.vi"/>
@@ -66,6 +74,7 @@
 				<Item Name="DisconnectAndReleaseCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/DisconnectAndReleaseCamera.vi"/>
 				<Item Name="SimpleCameraGrapImage.vi" Type="VI" URL="../Acquisition/SimpleCameraGrapImage.vi"/>
 				<Item Name="Prime95BCameraSimpleOperation.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraSimpleOperation.vi"/>
+				<Item Name="Prime95BCameraSimpleOperationACQ.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraSimpleOperationACQ.vi"/>
 			</Item>
 			<Item Name="Stages" Type="Folder">
 				<Item Name="Stage Ctrl.ctl" Type="VI" URL="../HardwareAdapter/Stages/Stage Ctrl.ctl"/>
@@ -103,7 +112,7 @@
 		<Item Name="Settings.lvlib" Type="Library" URL="../Settings/Settings.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Global.vi" Type="VI" URL="../Global.vi"/>
-		<Item Name="Create Folder And Files.vi" Type="VI" URL="../Logging/Create Folder And Files.vi"/>
+		<Item Name="ImageInfo.ctl" Type="VI" URL="../controls/ImageInfo.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -202,6 +211,12 @@
 			<Item Name="Oxxius_Boxx.dll" Type="Document" URL="../HardwareAdapter/Lasers/Dependencies/Oxxius_Boxx.dll"/>
 			<Item Name="Calibrate.vi" Type="VI" URL="../HardwareAdapter/Stages/Dependencies/Calibrate.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="System" Type="VI" URL="System">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="PVCamNET.dll" Type="Document" URL="/D/SDK/PMQI-LabViewSamples/Examples/Dependencies/PVCamNET.dll"/>
+			<Item Name="PropertyChangedEventCallbackForCameraState.vi" Type="VI" URL="/D/SDK/PMQI-LabViewSamples/Examples/Examples/CommonFiles/PropertyChangedEventCallbackForCameraState.vi"/>
+			<Item Name="PropertyChangedEventCallbackForHistogram.vi" Type="VI" URL="/D/SDK/PMQI-LabViewSamples/Examples/Examples/CommonFiles/PropertyChangedEventCallbackForHistogram.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="MMicroscopy" Type="EXE">
