@@ -113,6 +113,8 @@
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Global.vi" Type="VI" URL="../Global.vi"/>
 		<Item Name="ImageInfo.ctl" Type="VI" URL="../controls/ImageInfo.ctl"/>
+		<Item Name="CallBack Refs.ctl" Type="VI" URL="../controls/CallBack Refs.ctl"/>
+		<Item Name="Running Parameter.ctl" Type="VI" URL="../controls/Running Parameter.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>

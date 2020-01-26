@@ -3,7 +3,7 @@
 <Version>19.0.1</Version>
 <Cluster>
 <Name>Settings</Name>
-<NumElts>3</NumElts>
+<NumElts>4</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
 <NumElts>4</NumElts>
@@ -19,7 +19,7 @@
 <DotNetType>
 <Name>PVCamNET.Camera, PVCamNET, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x00000000</Val>
+<Val>0x96D00002</Val>
 </Refnum>
 <Refnum>
 <Name>LibraryRef</Name>
@@ -27,7 +27,7 @@
 <DotNetType>
 <Name>PVCamNET.Library, PVCamNET, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x00000000</Val>
+<Val>0x96B00000</Val>
 </Refnum>
 </Cluster>
 <Cluster>
@@ -57,7 +57,7 @@
 <Name>Session Out</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>IMAQdx</RefType>
-<Val>cam0</Val>
+<Val></Val>
 </Refnum>
 </Cluster>
 </Cluster>
@@ -69,15 +69,15 @@
 <NumElts>3</NumElts>
 <I32>
 <Name>NanoStage Ref</Name>
-<Val>0</Val>
+<Val>1</Val>
 </I32>
 <I32>
 <Name>MicroStage Ref</Name>
-<Val>0</Val>
+<Val>1</Val>
 </I32>
 <I32>
 <Name>TirfLock Ref</Name>
-<Val>0</Val>
+<Val>1</Val>
 </I32>
 </Cluster>
 <Cluster>
@@ -153,7 +153,7 @@
 </SGL>
 <SGL>
 <Name>488 Power</Name>
-<Val>0.00000</Val>
+<Val>50.10000</Val>
 </SGL>
 <SGL>
 <Name>532 Power</Name>
@@ -181,7 +181,7 @@
 <DotNetType>
 <Name>Oxxius_Boxx.Lasers, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0xE3600000</Val>
+<Val>0x96E00003</Val>
 </Refnum>
 <Cluster>
 <Name>Lasers Ref</Name>
@@ -192,7 +192,7 @@
 <DotNetType>
 <Name>Oxxius_Boxx.LaserBoxx, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x00000000</Val>
+<Val>0x97200007</Val>
 </Refnum>
 <Refnum>
 <Name>488 Ref</Name>
@@ -200,7 +200,7 @@
 <DotNetType>
 <Name>Oxxius_Boxx.LaserBoxx, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x00000000</Val>
+<Val>0x96F00004</Val>
 </Refnum>
 <Refnum>
 <Name>532 Ref</Name>
@@ -224,7 +224,7 @@
 <DotNetType>
 <Name>Oxxius_Boxx.LaserBoxx, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x00000000</Val>
+<Val>0x97100006</Val>
 </Refnum>
 <Refnum>
 <Name>785 Ref</Name>
@@ -232,7 +232,7 @@
 <DotNetType>
 <Name>Oxxius_Boxx.LaserBoxx, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x00000000</Val>
+<Val>0x97000005</Val>
 </Refnum>
 </Cluster>
 </Cluster>
@@ -293,11 +293,11 @@
 <NumElts>6</NumElts>
 <Boolean>
 <Name>405</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>488</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>532</Name>
@@ -309,11 +309,11 @@
 </Boolean>
 <Boolean>
 <Name>647</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>785</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 </Cluster>
 <Cluster>
@@ -325,7 +325,7 @@
 </Boolean>
 <Boolean>
 <Name>488</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>532</Name>
@@ -345,6 +345,30 @@
 </Boolean>
 </Cluster>
 </Cluster>
+</Cluster>
+<Cluster>
+<Name>CallBack Ref</Name>
+<NumElts>4</NumElts>
+<Refnum>
+<Name>event callback refnum</Name>
+<RefKind>Event Callback Refnum</RefKind>
+<Val>0x8AE00005</Val>
+</Refnum>
+<Refnum>
+<Name>event callback refnum 2</Name>
+<RefKind>Event Callback Refnum</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>event callback refnum 3</Name>
+<RefKind>Event Callback Refnum</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>event callback refnum 4</Name>
+<RefKind>Event Callback Refnum</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
 </Cluster>
 </Cluster>
 </LVData>
