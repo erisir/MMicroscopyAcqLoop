@@ -52,6 +52,10 @@
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 			<Item Name="UI State.ctl" Type="VI" URL="../controls/UI State.ctl"/>
 			<Item Name="UI Configuration.ctl" Type="VI" URL="../controls/UI Configuration.ctl"/>
+			<Item Name="ImageInfo.ctl" Type="VI" URL="../controls/ImageInfo.ctl"/>
+			<Item Name="CallBack Refs.ctl" Type="VI" URL="../controls/CallBack Refs.ctl"/>
+			<Item Name="Running Parameter.ctl" Type="VI" URL="../controls/Running Parameter.ctl"/>
+			<Item Name="Control Loop Status.ctl.ctl" Type="VI" URL="../controls/Control Loop Status.ctl.ctl"/>
 		</Item>
 		<Item Name="HardwareAdapter" Type="Folder">
 			<Item Name="Support" Type="Folder">
@@ -112,9 +116,6 @@
 		<Item Name="Settings.lvlib" Type="Library" URL="../Settings/Settings.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Global.vi" Type="VI" URL="../Global.vi"/>
-		<Item Name="ImageInfo.ctl" Type="VI" URL="../controls/ImageInfo.ctl"/>
-		<Item Name="CallBack Refs.ctl" Type="VI" URL="../controls/CallBack Refs.ctl"/>
-		<Item Name="Running Parameter.ctl" Type="VI" URL="../controls/Running Parameter.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -219,6 +220,8 @@
 			<Item Name="PVCamNET.dll" Type="Document" URL="/D/SDK/PMQI-LabViewSamples/Examples/Dependencies/PVCamNET.dll"/>
 			<Item Name="PropertyChangedEventCallbackForCameraState.vi" Type="VI" URL="/D/SDK/PMQI-LabViewSamples/Examples/Examples/CommonFiles/PropertyChangedEventCallbackForCameraState.vi"/>
 			<Item Name="PropertyChangedEventCallbackForHistogram.vi" Type="VI" URL="/D/SDK/PMQI-LabViewSamples/Examples/Examples/CommonFiles/PropertyChangedEventCallbackForHistogram.vi"/>
+			<Item Name="TIRF-Lock.vi" Type="VI" URL="../support/TIRF-Lock.vi"/>
+			<Item Name="Move_Rel_FullBit.vi" Type="VI" URL="../HardwareAdapter/Stages/Move_Rel_FullBit.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="MMicroscopy" Type="EXE">
