@@ -218,8 +218,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="PVCamNET.dll" Type="Document" URL="/D/SDK/PMQI-LabViewSamples/Examples/Dependencies/PVCamNET.dll"/>
-			<Item Name="PropertyChangedEventCallbackForCameraState.vi" Type="VI" URL="/D/SDK/PMQI-LabViewSamples/Examples/Examples/CommonFiles/PropertyChangedEventCallbackForCameraState.vi"/>
-			<Item Name="PropertyChangedEventCallbackForHistogram.vi" Type="VI" URL="/D/SDK/PMQI-LabViewSamples/Examples/Examples/CommonFiles/PropertyChangedEventCallbackForHistogram.vi"/>
 			<Item Name="TIRF-Lock.vi" Type="VI" URL="../support/TIRF-Lock.vi"/>
 			<Item Name="Move_Rel_FullBit.vi" Type="VI" URL="../HardwareAdapter/Stages/Move_Rel_FullBit.vi"/>
 		</Item>
