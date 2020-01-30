@@ -73,7 +73,9 @@
 					<Item Name="PropertyChangedEventCallbackForScrollBar.vi" Type="VI" URL="../HardwareAdapter/Camera/Dependencies/CommonFiles/PropertyChangedEventCallbackForScrollBar.vi"/>
 				</Item>
 				<Item Name="DetectAndConnectCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/DetectAndConnectCamera.vi"/>
+				<Item Name="StartSnap.vi" Type="VI" URL="../HardwareAdapter/Camera/StartSnap.vi"/>
 				<Item Name="StartLive.vi" Type="VI" URL="../HardwareAdapter/Camera/StartLive.vi"/>
+				<Item Name="Snapshot.vi" Type="VI" URL="../HardwareAdapter/Camera/Snapshot.vi"/>
 				<Item Name="StartSequence.vi" Type="VI" URL="../HardwareAdapter/Camera/StartSequence.vi"/>
 				<Item Name="Prime95BCameraGrapImage.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraGrapImage.vi"/>
 				<Item Name="DisconnectAndReleaseCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/DisconnectAndReleaseCamera.vi"/>
@@ -102,6 +104,7 @@
 				<Item Name="LaserGetPower.vi" Type="VI" URL="../HardwareAdapter/Lasers/LaserGetPower.vi"/>
 				<Item Name="LaserSetPower.vi" Type="VI" URL="../HardwareAdapter/Lasers/LaserSetPower.vi"/>
 				<Item Name="LaserSwitch.vi" Type="VI" URL="../HardwareAdapter/Lasers/LaserSwitch.vi"/>
+				<Item Name="LaserAutoShutter.vi" Type="VI" URL="../HardwareAdapter/Lasers/LaserAutoShutter.vi"/>
 			</Item>
 			<Item Name="Read Stage And Lasers Values.vi" Type="VI" URL="../HardwareAdapter/Read Stage And Lasers Values.vi"/>
 			<Item Name="Configure Hardware.vi" Type="VI" URL="../HardwareAdapter/Configure Hardware.vi"/>
@@ -245,12 +248,18 @@
 				<Property Name="Destination[1].path" Type="Path">/E/Build/NI_AB_PROJECTNAME/EXE/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CABF4FEA-F262-4F15-95B9-EB8F1BD38B8E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{23331A91-06C3-4268-8CDF-81A690703860}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[10].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Conversion</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].type" Type="Str">Container</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
@@ -294,7 +303,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Global.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="SourceCount" Type="Int">11</Property>
 				<Property Name="TgtF_companyName" Type="Str">PSU,</Property>
 				<Property Name="TgtF_internalName" Type="Str">MMicroscopy</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ? 2020</Property>
