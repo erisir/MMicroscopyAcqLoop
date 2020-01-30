@@ -36,6 +36,7 @@
 				</Item>
 				<Item Name="Create Data Queues.vi" Type="VI" URL="../support/Data Queue/Create Data Queues.vi"/>
 				<Item Name="Release Data Queues.vi" Type="VI" URL="../support/Data Queue/Release Data Queues.vi"/>
+				<Item Name="Empty Data Queues.vi" Type="VI" URL="../support/Data Queue/Empty Data Queues.vi"/>
 			</Item>
 			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
 			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/User Event - Stop.lvlib"/>
@@ -220,7 +221,6 @@
 			<Item Name="PVCamNET.dll" Type="Document" URL="/D/SDK/PMQI-LabViewSamples/Examples/Dependencies/PVCamNET.dll"/>
 			<Item Name="TIRF-Lock.vi" Type="VI" URL="../support/TIRF-Lock.vi"/>
 			<Item Name="Move_Rel_FullBit.vi" Type="VI" URL="../HardwareAdapter/Stages/Move_Rel_FullBit.vi"/>
-			<Item Name="Empty Data Queues.vi" Type="VI" URL="../support/Data Queue/Empty Data Queues.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="MMicroscopy" Type="EXE">
