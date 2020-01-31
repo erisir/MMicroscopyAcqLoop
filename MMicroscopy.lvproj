@@ -22,10 +22,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Project Documentation" Type="Folder">
-			<Item Name="Documentation Images" Type="Folder">
-				<Item Name="loc_continuous_measurement.png" Type="Document" URL="../documentation/loc_continuous_measurement.png"/>
-			</Item>
-			<Item Name="Continuous Measurement and Logging Documentation.html" Type="Document" URL="../documentation/Continuous Measurement and Logging Documentation.html"/>
+			<Item Name="LibUsbDotNet.dll" Type="Document" URL="../documentation/LibUsbDotNet.dll"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -235,20 +232,23 @@
 				<Property Name="Bld_buildSpecName" Type="Str">MMicroscopy</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/E/Build/NI_AB_PROJECTNAME/EXE</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/E/Build/NI_AB_PROJECTNAME/MMicroscope-Release</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B1B2A711-D696-4C82-A956-2E5555B6D5C4}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MMicroscopy.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/E/Build/NI_AB_PROJECTNAME/EXE/MMicroscopy.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/E/Build/NI_AB_PROJECTNAME/MMicroscope-Release/MMicroscopy.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/E/Build/NI_AB_PROJECTNAME/EXE/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/E/Build/NI_AB_PROJECTNAME/MMicroscope-Release/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{23331A91-06C3-4268-8CDF-81A690703860}</Property>
+				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6F86C2DA-7488-4E2E-B10D-25A329964EBE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
