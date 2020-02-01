@@ -19,7 +19,7 @@
 <DotNetType>
 <Name>PVCamNET.Camera, PVCamNET, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x5BC00002</Val>
+<Val>0xC98001FA</Val>
 </Refnum>
 <Refnum>
 <Name>LibraryRef</Name>
@@ -27,7 +27,7 @@
 <DotNetType>
 <Name>PVCamNET.Library, PVCamNET, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x5BA00000</Val>
+<Val>0xC9600047</Val>
 </Refnum>
 </Cluster>
 <Cluster>
@@ -69,15 +69,15 @@
 <NumElts>3</NumElts>
 <I32>
 <Name>NanoStage Ref</Name>
-<Val>1</Val>
+<Val>10</Val>
 </I32>
 <I32>
 <Name>MicroStage Ref</Name>
-<Val>1</Val>
+<Val>10</Val>
 </I32>
 <I32>
 <Name>TirfLock Ref</Name>
-<Val>1</Val>
+<Val>10</Val>
 </I32>
 </Cluster>
 <Cluster>
@@ -152,7 +152,7 @@
 </DBL>
 <DBL>
 <Name>Avg</Name>
-<Val>20.00000000000000</Val>
+<Val>10.00000000000000</Val>
 </DBL>
 </Cluster>
 </Cluster>
@@ -169,7 +169,7 @@
 </SGL>
 <SGL>
 <Name>488 Power</Name>
-<Val>0.00000</Val>
+<Val>40.00000</Val>
 </SGL>
 <SGL>
 <Name>532 Power</Name>
@@ -197,7 +197,7 @@
 <DotNetType>
 <Name>Oxxius_Boxx.Lasers, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x5BD00003</Val>
+<Val>0xC99001BC</Val>
 </Refnum>
 <Cluster>
 <Name>Lasers Ref</Name>
@@ -216,7 +216,7 @@
 <DotNetType>
 <Name>Oxxius_Boxx.LaserBoxx, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x5BE00004</Val>
+<Val>0xC9A0017C</Val>
 </Refnum>
 <Refnum>
 <Name>532 Ref</Name>
@@ -248,7 +248,7 @@
 <DotNetType>
 <Name>Oxxius_Boxx.LaserBoxx, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x5BF00005</Val>
+<Val>0xC9B00140</Val>
 </Refnum>
 </Cluster>
 </Cluster>
@@ -357,7 +357,7 @@
 </Boolean>
 <Boolean>
 <Name>785</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 </Cluster>
 </Cluster>
@@ -368,12 +368,12 @@
 <Refnum>
 <Name>event callback refnum</Name>
 <RefKind>Event Callback Refnum</RefKind>
-<Val>0x4B000003</Val>
+<Val>0xBFD00005</Val>
 </Refnum>
 <Refnum>
 <Name>event callback refnum 2</Name>
 <RefKind>Event Callback Refnum</RefKind>
-<Val>0x4AF00005</Val>
+<Val>0xBFE00003</Val>
 </Refnum>
 <Refnum>
 <Name>event callback refnum 3</Name>
