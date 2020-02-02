@@ -2,7 +2,7 @@
 <LVData xmlns="http://www.ni.com/LVData">
 <Version>19.0.1</Version>
 <Cluster>
-<Name>Settings in</Name>
+<Name>Settings</Name>
 <NumElts>4</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
@@ -15,15 +15,15 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>Expouse</Name>
-<Val>0.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Frames</Name>
-<Val>0.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Interval</Name>
-<Val>0.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -35,7 +35,7 @@
 <DotNetType>
 <Name>PVCamNET.Camera, PVCamNET, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x00000000</Val>
+<Val>0x4B700079</Val>
 </Refnum>
 <Refnum>
 <Name>LibraryRef</Name>
@@ -43,7 +43,7 @@
 <DotNetType>
 <Name>PVCamNET.Library, PVCamNET, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x00000000</Val>
+<Val>0x4B5002E7</Val>
 </Refnum>
 <Array>
 <Name>ImagesArray</Name>
@@ -79,15 +79,15 @@
 <NumElts>3</NumElts>
 <I32>
 <Name>NanoStage Ref</Name>
-<Val>0</Val>
+<Val>3</Val>
 </I32>
 <I32>
 <Name>MicroStage Ref</Name>
-<Val>0</Val>
+<Val>3</Val>
 </I32>
 <I32>
 <Name>TirfLock Ref</Name>
-<Val>0</Val>
+<Val>3</Val>
 </I32>
 </Cluster>
 <Cluster>
@@ -154,15 +154,15 @@
 </DBL>
 <DBL>
 <Name>Kp</Name>
-<Val>0.00000000000000</Val>
+<Val>4.00000000000000E-3</Val>
 </DBL>
 <DBL>
 <Name>Ki</Name>
-<Val>0.00000000000000</Val>
+<Val>8.00000000000000E-4</Val>
 </DBL>
 <DBL>
 <Name>Avg</Name>
-<Val>0.00000000000000</Val>
+<Val>10.00000000000000</Val>
 </DBL>
 </Cluster>
 </Cluster>
@@ -179,7 +179,7 @@
 </SGL>
 <SGL>
 <Name>488 Power</Name>
-<Val>0.00000</Val>
+<Val>40.00000</Val>
 </SGL>
 <SGL>
 <Name>532 Power</Name>
@@ -195,7 +195,7 @@
 </SGL>
 <SGL>
 <Name>785 Power</Name>
-<Val>0.00000</Val>
+<Val>106.70000</Val>
 </SGL>
 </Cluster>
 <Cluster>
@@ -207,7 +207,7 @@
 <DotNetType>
 <Name>Oxxius_Boxx.Lasers, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x00000000</Val>
+<Val>0x4B8000DE</Val>
 </Refnum>
 <Cluster>
 <Name>Lasers Ref</Name>
@@ -226,7 +226,7 @@
 <DotNetType>
 <Name>Oxxius_Boxx.LaserBoxx, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x00000000</Val>
+<Val>0x4B900174</Val>
 </Refnum>
 <Refnum>
 <Name>532 Ref</Name>
@@ -258,7 +258,7 @@
 <DotNetType>
 <Name>Oxxius_Boxx.LaserBoxx, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x00000000</Val>
+<Val>0x4BA0022C</Val>
 </Refnum>
 </Cluster>
 </Cluster>
@@ -266,10 +266,10 @@
 </Cluster>
 <Cluster>
 <Name>Logging Configuration</Name>
-<NumElts>6</NumElts>
+<NumElts>7</NumElts>
 <Path>
 <Name>Log File Base Folder</Name>
-<Val>C:\Users\Daguan Nong\Document\LabVIEW Data\Logged Data.tdms</Val>
+<Val>C:\MMTest</Val>
 </Path>
 <String>
 <Name>FilePrefix</Name>
@@ -277,22 +277,27 @@
 </String>
 <Path>
 <Name>TiffFileFullPath</Name>
-<Val></Val>
-</Path>
-<Path>
-<Name>HardWareInfoFileFullPath</Name>
-<Val></Val>
+<Val>C:\Users\Daguan Nong\Document\LabVIEW Data\Logged Data.tdms\2020_02_02\20200202_145028\20200202_145028_TIFFs</Val>
 </Path>
 <Refnum>
 <Name>TimeStampFile Ref</Name>
 <RefKind>Byte Stream File</RefKind>
-<Val>0x00000000</Val>
+<Val>0x45C00002</Val>
 </Refnum>
 <Refnum>
 <Name>NoteFileRef</Name>
 <RefKind>Byte Stream File</RefKind>
-<Val>0x00000000</Val>
+<Val>0x45B00001</Val>
 </Refnum>
+<Refnum>
+<Name>HardWareInfoFileRef</Name>
+<RefKind>Byte Stream File</RefKind>
+<Val>0x45A00000</Val>
+</Refnum>
+<String>
+<Name>QuickNoteInfo</Name>
+<Val></Val>
+</String>
 </Cluster>
 <Cluster>
 <Name>HardWare Status</Name>
@@ -302,19 +307,19 @@
 <NumElts>4</NumElts>
 <Boolean>
 <Name>Camera</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>NanoStage</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>MicroStage</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>TIRFLock</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 </Cluster>
 <Cluster>
@@ -329,7 +334,7 @@
 </Boolean>
 <Boolean>
 <Name>488</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>532</Name>
@@ -345,7 +350,7 @@
 </Boolean>
 <Boolean>
 <Name>785</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 </Cluster>
 <Cluster>
@@ -384,12 +389,12 @@
 <Refnum>
 <Name>event callback refnum</Name>
 <RefKind>Event Callback Refnum</RefKind>
-<Val>0x00000000</Val>
+<Val>0xB9A00000</Val>
 </Refnum>
 <Refnum>
 <Name>event callback refnum 2</Name>
 <RefKind>Event Callback Refnum</RefKind>
-<Val>0x00000000</Val>
+<Val>0xB9B00002</Val>
 </Refnum>
 <Refnum>
 <Name>event callback refnum 3</Name>

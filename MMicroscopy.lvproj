@@ -119,6 +119,8 @@
 		<Item Name="Global.vi" Type="VI" URL="../Global.vi"/>
 		<Item Name="StartAlbum-TimeLoop.vi" Type="VI" URL="../HardwareAdapter/Camera/StartAlbum-TimeLoop.vi"/>
 		<Item Name="CreateImaqArray.vi" Type="VI" URL="../HardwareAdapter/Camera/CreateImaqArray.vi"/>
+		<Item Name="EstimateAcqTime.vi" Type="VI" URL="../HardwareAdapter/Camera/EstimateAcqTime.vi"/>
+		<Item Name="CaculateWaitingTimeForAlbum.vi" Type="VI" URL="../HardwareAdapter/Camera/CaculateWaitingTimeForAlbum.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
