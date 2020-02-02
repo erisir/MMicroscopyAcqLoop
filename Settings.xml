@@ -11,26 +11,6 @@
 <Name>Camera Configuration</Name>
 <NumElts>2</NumElts>
 <Cluster>
-<Name>Resource</Name>
-<NumElts>2</NumElts>
-<Refnum>
-<Name>CameraRef</Name>
-<RefKind>.NET Refnum</RefKind>
-<DotNetType>
-<Name>PVCamNET.Camera, PVCamNET, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
-</DotNetType>
-<Val>0x1D90089A</Val>
-</Refnum>
-<Refnum>
-<Name>LibraryRef</Name>
-<RefKind>.NET Refnum</RefKind>
-<DotNetType>
-<Name>PVCamNET.Library, PVCamNET, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
-</DotNetType>
-<Val>0x1D700619</Val>
-</Refnum>
-</Cluster>
-<Cluster>
 <Name>Setting</Name>
 <NumElts>3</NumElts>
 <DBL>
@@ -39,12 +19,42 @@
 </DBL>
 <DBL>
 <Name>Frames</Name>
-<Val>10.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Interval</Name>
-<Val>50.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
+</Cluster>
+<Cluster>
+<Name>Resource</Name>
+<NumElts>3</NumElts>
+<Refnum>
+<Name>CameraRef</Name>
+<RefKind>.NET Refnum</RefKind>
+<DotNetType>
+<Name>PVCamNET.Camera, PVCamNET, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+</DotNetType>
+<Val>0xF8D00870</Val>
+</Refnum>
+<Refnum>
+<Name>LibraryRef</Name>
+<RefKind>.NET Refnum</RefKind>
+<DotNetType>
+<Name>PVCamNET.Library, PVCamNET, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+</DotNetType>
+<Val>0xF8B004C3</Val>
+</Refnum>
+<Array>
+<Name>ImagesArray</Name>
+<Dimsize>0</Dimsize>
+<Refnum>
+<Name>New Image</Name>
+<RefKind>Generic Tag By Ref Flatten</RefKind>
+<RefType>IMAQImage</RefType>
+<Val></Val>
+</Refnum>
+</Array>
 </Cluster>
 </Cluster>
 <Cluster>
@@ -69,15 +79,15 @@
 <NumElts>3</NumElts>
 <I32>
 <Name>NanoStage Ref</Name>
-<Val>14</Val>
+<Val>13</Val>
 </I32>
 <I32>
 <Name>MicroStage Ref</Name>
-<Val>14</Val>
+<Val>0</Val>
 </I32>
 <I32>
 <Name>TirfLock Ref</Name>
-<Val>14</Val>
+<Val>13</Val>
 </I32>
 </Cluster>
 <Cluster>
@@ -136,7 +146,7 @@
 </DBL>
 <DBL>
 <Name>Calbrate</Name>
-<Val>0.87950658065169</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>LockedTarget</Name>
@@ -185,7 +195,7 @@
 </SGL>
 <SGL>
 <Name>785 Power</Name>
-<Val>106.70000</Val>
+<Val>106.90000</Val>
 </SGL>
 </Cluster>
 <Cluster>
@@ -197,7 +207,7 @@
 <DotNetType>
 <Name>Oxxius_Boxx.Lasers, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x1DA003B1</Val>
+<Val>0xF8E00C21</Val>
 </Refnum>
 <Cluster>
 <Name>Lasers Ref</Name>
@@ -216,7 +226,7 @@
 <DotNetType>
 <Name>Oxxius_Boxx.LaserBoxx, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x1DB002A9</Val>
+<Val>0xF8F00723</Val>
 </Refnum>
 <Refnum>
 <Name>532 Ref</Name>
@@ -248,7 +258,7 @@
 <DotNetType>
 <Name>Oxxius_Boxx.LaserBoxx, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x1DC005ED</Val>
+<Val>0xF90004DF</Val>
 </Refnum>
 </Cluster>
 </Cluster>
@@ -267,15 +277,15 @@
 </String>
 <Path>
 <Name>TiffFileFullPath</Name>
-<Val>C:\MMTest\2020_02_01\20200201_195454\20200201_195454_TIFFs</Val>
+<Val>C:\Users\Daguan Nong\Document\LabVIEW Data\Logged Data.tdms\2020_02_02\20200202_130339\20200202_130339_TIFFs</Val>
 </Path>
 <Path>
 <Name>HardWareInfoFileFullPath</Name>
-<Val>C:\MMTest\2020_02_01\20200201_195454\20200201_195454_SystemInfo.xml</Val>
+<Val>C:\Users\Daguan Nong\Document\LabVIEW Data\Logged Data.tdms\2020_02_02\20200202_130339\20200202_130339_SystemInfo.xml</Val>
 </Path>
 <Path>
 <Name>NoteFileFullPath</Name>
-<Val>C:\MMTest\2020_02_01\20200201_195454\20200201_195454_QuickNote.txt</Val>
+<Val>C:\Users\Daguan Nong\Document\LabVIEW Data\Logged Data.tdms\2020_02_02\20200202_130339\20200202_130339_QuickNote.txt</Val>
 </Path>
 </Cluster>
 <Cluster>
@@ -368,12 +378,12 @@
 <Refnum>
 <Name>event callback refnum</Name>
 <RefKind>Event Callback Refnum</RefKind>
-<Val>0xF2B00005</Val>
+<Val>0x85500002</Val>
 </Refnum>
 <Refnum>
 <Name>event callback refnum 2</Name>
 <RefKind>Event Callback Refnum</RefKind>
-<Val>0xF2C00002</Val>
+<Val>0x85600003</Val>
 </Refnum>
 <Refnum>
 <Name>event callback refnum 3</Name>
