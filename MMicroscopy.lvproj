@@ -261,7 +261,7 @@
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0AD8A298-A89F-4F53-B8EC-1CCB4D98DAF9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0745509D-18B3-4E63-A9AD-68980BDBFD13}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
