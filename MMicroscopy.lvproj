@@ -36,6 +36,7 @@
 				<Item Name="Empty Data Queues.vi" Type="VI" URL="../support/Data Queue/Empty Data Queues.vi"/>
 			</Item>
 			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
+			<Item Name="Package stage data to cluster.vi" Type="VI" URL="../HardwareAdapter/Stages/Package stage data to cluster.vi"/>
 			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/User Event - Stop.lvlib"/>
 			<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../support/Set Enable State on Multiple Controls.vi"/>
 			<Item Name="Set Enable State on Multiple Controls(Cluster).vi" Type="VI" URL="../support/Set Enable State on Multiple Controls(Cluster).vi"/>
@@ -43,7 +44,10 @@
 			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 			<Item Name="Set All Controls Status.vi" Type="VI" URL="../support/Set All Controls Status.vi"/>
+			<Item Name="CaculateWaitingTimeForAlbum.vi" Type="VI" URL="../HardwareAdapter/Camera/CaculateWaitingTimeForAlbum.vi"/>
+			<Item Name="CreateImaqArray.vi" Type="VI" URL="../HardwareAdapter/Camera/CreateImaqArray.vi"/>
 			<Item Name="TIRF-LockCalbrate.vi" Type="VI" URL="../support/TIRF-LockCalbrate.vi"/>
+			<Item Name="EstimateAcqTime.vi" Type="VI" URL="../HardwareAdapter/Camera/EstimateAcqTime.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="Acquired Data.ctl" Type="VI" URL="../controls/Acquired Data.ctl"/>
@@ -79,6 +83,7 @@
 				<Item Name="SimpleCameraGrapImage.vi" Type="VI" URL="../Acquisition/SimpleCameraGrapImage.vi"/>
 				<Item Name="Prime95BCameraSimpleOperation.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraSimpleOperation.vi"/>
 				<Item Name="Prime95BCameraSimpleOperationACQ.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraSimpleOperationACQ.vi"/>
+				<Item Name="StartAlbum-TimeLoop.vi" Type="VI" URL="../HardwareAdapter/Camera/StartAlbum-TimeLoop.vi"/>
 			</Item>
 			<Item Name="Stages" Type="Folder">
 				<Item Name="Stage Ctrl.ctl" Type="VI" URL="../HardwareAdapter/Stages/Stage Ctrl.ctl"/>
@@ -86,13 +91,13 @@
 				<Item Name="NanoStageSetMultPositions.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageSetMultPositions.vi"/>
 				<Item Name="NanoStageGetMultPositions.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageGetMultPositions.vi"/>
 				<Item Name="NanoStageSetPosition.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageSetPosition.vi"/>
-				<Item Name="Package stage data to cluster.vi" Type="VI" URL="../HardwareAdapter/Stages/Package stage data to cluster.vi"/>
 				<Item Name="NanoStageGetPosition.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageGetPosition.vi"/>
 				<Item Name="MicroStageGetPosition.vi" Type="VI" URL="../HardwareAdapter/Stages/MicroStageGetPosition.vi"/>
 				<Item Name="MicroStageSetRelativePosition.vi" Type="VI" URL="../HardwareAdapter/Stages/MicroStageSetRelativePosition.vi"/>
 				<Item Name="NanoStageSetRelativePosition.vi" Type="VI" URL="../HardwareAdapter/Stages/NanoStageSetRelativePosition.vi"/>
 				<Item Name="TIRFLockGetVotage.vi" Type="VI" URL="../HardwareAdapter/Stages/TIRFLockGetVotage.vi"/>
 				<Item Name="DisconnectAndReleaseAllStages.vi" Type="VI" URL="../HardwareAdapter/Stages/DisconnectAndReleaseAllStages.vi"/>
+				<Item Name="TIRF Find EPI.vi" Type="VI" URL="../HardwareAdapter/Stages/TIRF Find EPI.vi"/>
 			</Item>
 			<Item Name="Lasers" Type="Folder">
 				<Item Name="Laser Ctrl.ctl" Type="VI" URL="../HardwareAdapter/Lasers/Laser Ctrl.ctl"/>
@@ -117,10 +122,6 @@
 		<Item Name="Settings.lvlib" Type="Library" URL="../Settings/Settings.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Global.vi" Type="VI" URL="../Global.vi"/>
-		<Item Name="StartAlbum-TimeLoop.vi" Type="VI" URL="../HardwareAdapter/Camera/StartAlbum-TimeLoop.vi"/>
-		<Item Name="CreateImaqArray.vi" Type="VI" URL="../HardwareAdapter/Camera/CreateImaqArray.vi"/>
-		<Item Name="EstimateAcqTime.vi" Type="VI" URL="../HardwareAdapter/Camera/EstimateAcqTime.vi"/>
-		<Item Name="CaculateWaitingTimeForAlbum.vi" Type="VI" URL="../HardwareAdapter/Camera/CaculateWaitingTimeForAlbum.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
