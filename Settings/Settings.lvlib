@@ -9,7 +9,7 @@
 
 </Property>
 	<Item Name="support" Type="Folder">
-		<Item Name="Settings.ctl" Type="VI" URL="../Settings.ctl"/>
+		<Item Name="System Running Settings.ctl" Type="VI" URL="../System Running Settings.ctl"/>
 	</Item>
 	<Item Name="Settings Dialog.vi" Type="VI" URL="../Settings Dialog.vi"/>
 	<Item Name="Get Config File Path.vi" Type="VI" URL="../Get Config File Path.vi"/>

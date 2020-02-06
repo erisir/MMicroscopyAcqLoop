@@ -50,14 +50,13 @@
 			<Item Name="EstimateAcqTime.vi" Type="VI" URL="../HardwareAdapter/Camera/EstimateAcqTime.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
-			<Item Name="Acquired Data.ctl" Type="VI" URL="../controls/Acquired Data.ctl"/>
-			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
-			<Item Name="UI State.ctl" Type="VI" URL="../controls/UI State.ctl"/>
-			<Item Name="UI Configuration.ctl" Type="VI" URL="../controls/UI Configuration.ctl"/>
-			<Item Name="ImageInfo.ctl" Type="VI" URL="../controls/ImageInfo.ctl"/>
-			<Item Name="CallBack Refs.ctl" Type="VI" URL="../controls/CallBack Refs.ctl"/>
-			<Item Name="Running Parameter.ctl" Type="VI" URL="../controls/Running Parameter.ctl"/>
-			<Item Name="Control Loop Status.ctl.ctl" Type="VI" URL="../controls/Control Loop Status.ctl.ctl"/>
+			<Item Name="UIReferenceCtl.ctl" Type="VI" URL="../Controls/UIReferenceCtl.ctl"/>
+			<Item Name="UI Message Loop Status.ctl" Type="VI" URL="../Controls/UI Message Loop Status.ctl"/>
+			<Item Name="Control Loop Status.ctl.ctl" Type="VI" URL="../Controls/Control Loop Status.ctl.ctl"/>
+			<Item Name="DeviceStatusCtl.ctl" Type="VI" URL="../Controls/DeviceStatusCtl.ctl"/>
+			<Item Name="Image MatadataCtl.ctl" Type="VI" URL="../Controls/Image MatadataCtl.ctl"/>
+			<Item Name="CallBack Refs.ctl" Type="VI" URL="../Controls/CallBack Refs.ctl"/>
+			<Item Name="UIReference And System Config Ctl(Combined).ctl" Type="VI" URL="../Controls/UIReference And System Config Ctl(Combined).ctl"/>
 		</Item>
 		<Item Name="HardwareAdapter" Type="Folder">
 			<Item Name="Support" Type="Folder">
@@ -80,7 +79,6 @@
 				<Item Name="StartSequence.vi" Type="VI" URL="../HardwareAdapter/Camera/StartSequence.vi"/>
 				<Item Name="Prime95BCameraGrapImage.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraGrapImage.vi"/>
 				<Item Name="DisconnectAndReleaseCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/DisconnectAndReleaseCamera.vi"/>
-				<Item Name="SimpleCameraGrapImage.vi" Type="VI" URL="../Acquisition/SimpleCameraGrapImage.vi"/>
 				<Item Name="Prime95BCameraSimpleOperation.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraSimpleOperation.vi"/>
 				<Item Name="Prime95BCameraSimpleOperationACQ.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraSimpleOperationACQ.vi"/>
 				<Item Name="StartAlbum-TimeLoop.vi" Type="VI" URL="../HardwareAdapter/Camera/StartAlbum-TimeLoop.vi"/>
@@ -179,8 +177,6 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
-				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
-				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -204,9 +200,6 @@
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 			</Item>
 			<Item Name="PVCamNET.dll" Type="Document" URL="../HardwareAdapter/Camera/Dependencies/PVCamNET.dll"/>
-			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -246,23 +239,22 @@
 				<Property Name="Bld_buildSpecName" Type="Str">MMicroscopy</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/E/Build/NI_AB_PROJECTNAME/MMicroscope-Release</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../RM21-MMicrosope-Latest-Release</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B1B2A711-D696-4C82-A956-2E5555B6D5C4}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MMicroscopy.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/E/Build/NI_AB_PROJECTNAME/MMicroscope-Release/MMicroscopy.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../RM21-MMicrosope-Latest-Release/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/E/Build/NI_AB_PROJECTNAME/MMicroscope-Release/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../RM21-MMicrosope-Latest-Release/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0745509D-18B3-4E63-A9AD-68980BDBFD13}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B96FAC32-6282-4D30-B474-2798AB1B8AD8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
