@@ -33,7 +33,6 @@
 				</Item>
 				<Item Name="Create Data Queues.vi" Type="VI" URL="../support/Data Queue/Create Data Queues.vi"/>
 				<Item Name="Release Data Queues.vi" Type="VI" URL="../support/Data Queue/Release Data Queues.vi"/>
-				<Item Name="Empty Data Queues.vi" Type="VI" URL="../support/Data Queue/Empty Data Queues.vi"/>
 			</Item>
 			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
 			<Item Name="Package stage data to cluster.vi" Type="VI" URL="../HardwareAdapter/Stages/Package stage data to cluster.vi"/>
@@ -50,12 +49,12 @@
 			<Item Name="EstimateAcqTime.vi" Type="VI" URL="../HardwareAdapter/Camera/EstimateAcqTime.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
-			<Item Name="UIReferenceCtl.ctl" Type="VI" URL="../Controls/UIReferenceCtl.ctl"/>
-			<Item Name="UI Message Loop Status.ctl" Type="VI" URL="../Controls/UI Message Loop Status.ctl"/>
-			<Item Name="Control Loop Status.ctl.ctl" Type="VI" URL="../Controls/Control Loop Status.ctl.ctl"/>
-			<Item Name="DeviceStatusCtl.ctl" Type="VI" URL="../Controls/DeviceStatusCtl.ctl"/>
-			<Item Name="Image MatadataCtl.ctl" Type="VI" URL="../Controls/Image MatadataCtl.ctl"/>
-			<Item Name="CallBack Refs.ctl" Type="VI" URL="../Controls/CallBack Refs.ctl"/>
+			<Item Name="UIReferenceCtl.ctl" Type="VI" URL="../controls/UIReferenceCtl.ctl"/>
+			<Item Name="UI Message Loop Status.ctl" Type="VI" URL="../controls/UI Message Loop Status.ctl"/>
+			<Item Name="Control Loop Status.ctl.ctl" Type="VI" URL="../controls/Control Loop Status.ctl.ctl"/>
+			<Item Name="DeviceStatusCtl.ctl" Type="VI" URL="../controls/DeviceStatusCtl.ctl"/>
+			<Item Name="Image MatadataCtl.ctl" Type="VI" URL="../controls/Image MatadataCtl.ctl"/>
+			<Item Name="CallBack Refs.ctl" Type="VI" URL="../controls/CallBack Refs.ctl"/>
 			<Item Name="UIReference And System Config Ctl(Combined).ctl" Type="VI" URL="../Controls/UIReference And System Config Ctl(Combined).ctl"/>
 		</Item>
 		<Item Name="HardwareAdapter" Type="Folder">
@@ -64,25 +63,16 @@
 				<Item Name="Camera Configuration.ctl" Type="VI" URL="../HardwareAdapter/Support/Camera Configuration.ctl"/>
 			</Item>
 			<Item Name="Camera" Type="Folder">
-				<Item Name="CommonFiles" Type="Folder">
-					<Item Name="PropertyChangedEventCallbackForBufferIndex.vi" Type="VI" URL="../HardwareAdapter/Camera/Dependencies/CommonFiles/PropertyChangedEventCallbackForBufferIndex.vi"/>
-					<Item Name="PropertyChangedEventCallbackForBufferIndexDroppedFramesDiskStreamDroppedFrameAvailRam.vi" Type="VI" URL="../HardwareAdapter/Camera/Dependencies/CommonFiles/PropertyChangedEventCallbackForBufferIndexDroppedFramesDiskStreamDroppedFrameAvailRam.vi"/>
-					<Item Name="PropertyChangedEventCallbackForCameraState.vi" Type="VI" URL="../HardwareAdapter/Camera/Dependencies/CommonFiles/PropertyChangedEventCallbackForCameraState.vi"/>
-					<Item Name="PropertyChangedEventCallbackForCapturedFrames.vi" Type="VI" URL="../HardwareAdapter/Camera/Dependencies/CommonFiles/PropertyChangedEventCallbackForCapturedFrames.vi"/>
-					<Item Name="PropertyChangedEventCallbackForHistogram.vi" Type="VI" URL="../HardwareAdapter/Camera/Dependencies/CommonFiles/PropertyChangedEventCallbackForHistogram.vi"/>
-					<Item Name="PropertyChangedEventCallbackForScrollBar.vi" Type="VI" URL="../HardwareAdapter/Camera/Dependencies/CommonFiles/PropertyChangedEventCallbackForScrollBar.vi"/>
-				</Item>
 				<Item Name="DetectAndConnectCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/DetectAndConnectCamera.vi"/>
-				<Item Name="StartAlbum.vi" Type="VI" URL="../HardwareAdapter/Camera/StartAlbum.vi"/>
-				<Item Name="StartLive.vi" Type="VI" URL="../HardwareAdapter/Camera/StartLive.vi"/>
-				<Item Name="Snapshot.vi" Type="VI" URL="../HardwareAdapter/Camera/Snapshot.vi"/>
-				<Item Name="StartSequence.vi" Type="VI" URL="../HardwareAdapter/Camera/StartSequence.vi"/>
-				<Item Name="Prime95BCameraGrapImage.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraGrapImage.vi"/>
 				<Item Name="DisconnectAndReleaseCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/DisconnectAndReleaseCamera.vi"/>
-				<Item Name="Prime95BCameraSimpleOperation.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraSimpleOperation.vi"/>
-				<Item Name="Prime95BCameraSimpleOperationACQ.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraSimpleOperationACQ.vi"/>
+				<Item Name="Update Camera Setting.vi" Type="VI" URL="../HardwareAdapter/Camera/Update Camera Setting.vi"/>
+				<Item Name="StartLiveAcq.vi" Type="VI" URL="../HardwareAdapter/Camera/StartLiveAcq.vi"/>
+				<Item Name="StartSequenceAcq.vi" Type="VI" URL="../HardwareAdapter/Camera/StartSequenceAcq.vi"/>
+				<Item Name="StartAlbumAcq.vi" Type="VI" URL="../HardwareAdapter/Camera/StartAlbumAcq.vi"/>
 				<Item Name="StartAlbum-TimeLoop.vi" Type="VI" URL="../HardwareAdapter/Camera/StartAlbum-TimeLoop.vi"/>
-				<Item Name="Acquire Callback.vi" Type="VI" URL="../Acquisition/Acquire Callback.vi"/>
+				<Item Name="LiveAcquire Callback.vi" Type="VI" URL="../Acquisition/LiveAcquire Callback.vi"/>
+				<Item Name="SequenceAcquire Callback.vi" Type="VI" URL="../Acquisition/SequenceAcquire Callback.vi"/>
+				<Item Name="AlbumAcquire Callback.vi" Type="VI" URL="../Acquisition/AlbumAcquire Callback.vi"/>
 			</Item>
 			<Item Name="Stages" Type="Folder">
 				<Item Name="Stage Ctrl.ctl" Type="VI" URL="../HardwareAdapter/Stages/Stage Ctrl.ctl"/>
@@ -115,6 +105,11 @@
 		</Item>
 		<Item Name="Conversion" Type="Folder">
 			<Item Name="RGBToU8Intensity.vi" Type="VI" URL="../Conversion/RGBToU8Intensity.vi"/>
+		</Item>
+		<Item Name="SandBox" Type="Folder">
+			<Item Name="Prime95BCameraSimpleOperationACQ.vi" Type="VI" URL="../SandBox/Prime95BCameraSimpleOperationACQ.vi"/>
+			<Item Name="Prime95BCameraSimpleOperation.vi" Type="VI" URL="../SandBox/Prime95BCameraSimpleOperation.vi"/>
+			<Item Name="SimpleCameraGrapImage.vi" Type="VI" URL="../SandBox/SimpleCameraGrapImage.vi"/>
 		</Item>
 		<Item Name="Acquisition.lvlib" Type="Library" URL="../Acquisition/Acquisition.lvlib"/>
 		<Item Name="Logging.lvlib" Type="Library" URL="../Logging/Logging.lvlib"/>
@@ -197,6 +192,8 @@
 				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
 				<Item Name="IMAQ Write File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write File 2"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
+				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
+				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
 			</Item>
 			<Item Name="PVCamNET.dll" Type="Document" URL="../HardwareAdapter/Camera/Dependencies/PVCamNET.dll"/>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
@@ -218,9 +215,14 @@
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PVCamNET.dll" Type="Document" URL="/D/SDK/PMQI-LabViewSamples/Examples/Dependencies/PVCamNET.dll"/>
 			<Item Name="TIRF-Lock.vi" Type="VI" URL="../support/TIRF-Lock.vi"/>
 			<Item Name="Move_Rel_FullBit.vi" Type="VI" URL="../HardwareAdapter/Stages/Move_Rel_FullBit.vi"/>
+			<Item Name="Prime95BCameraGrapImage.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraGrapImage.vi"/>
+			<Item Name="Snapshot.vi" Type="VI" URL="../HardwareAdapter/Camera/Snapshot.vi"/>
+			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Acquire.vi" Type="VI" URL="../Acquisition/Acquire.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="MMicroscopy" Type="EXE">
