@@ -2,7 +2,7 @@
 <LVData xmlns="http://www.ni.com/LVData">
 <Version>19.0.1</Version>
 <Cluster>
-<Name>Settings in</Name>
+<Name>Settings</Name>
 <NumElts>4</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
@@ -15,15 +15,15 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>Expouse</Name>
-<Val>0.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Frames</Name>
-<Val>0.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Interval</Name>
-<Val>0.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -35,7 +35,7 @@
 <DotNetType>
 <Name>PVCamNET.Camera, PVCamNET, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x00000000</Val>
+<Val>0xDB4002FB</Val>
 </Refnum>
 <Refnum>
 <Name>LibraryRef</Name>
@@ -43,7 +43,7 @@
 <DotNetType>
 <Name>PVCamNET.Library, PVCamNET, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x00000000</Val>
+<Val>0xDB200B34</Val>
 </Refnum>
 <Array>
 <Name>ImagesArray</Name>
@@ -65,15 +65,15 @@
 <NumElts>3</NumElts>
 <I32>
 <Name>NanoStage Ref</Name>
-<Val>0</Val>
+<Val>4</Val>
 </I32>
 <I32>
 <Name>MicroStage Ref</Name>
-<Val>0</Val>
+<Val>4</Val>
 </I32>
 <I32>
 <Name>TirfLock Ref</Name>
-<Val>0</Val>
+<Val>4</Val>
 </I32>
 </Cluster>
 <Cluster>
@@ -112,7 +112,7 @@
 </DBL>
 <Boolean>
 <Name>IsEPISet?</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 </Cluster>
 <Cluster>
@@ -136,7 +136,7 @@
 </DBL>
 <DBL>
 <Name>Calbrate</Name>
-<Val>0.00000000000000</Val>
+<Val>0.80000000000000</Val>
 </DBL>
 <DBL>
 <Name>LockedTarget</Name>
@@ -144,15 +144,15 @@
 </DBL>
 <DBL>
 <Name>Kp</Name>
-<Val>0.00000000000000</Val>
+<Val>4.00000000000000E-3</Val>
 </DBL>
 <DBL>
 <Name>Ki</Name>
-<Val>0.00000000000000</Val>
+<Val>8.00000000000000E-4</Val>
 </DBL>
 <DBL>
 <Name>Avg</Name>
-<Val>0.00000000000000</Val>
+<Val>10.00000000000000</Val>
 </DBL>
 </Cluster>
 </Cluster>
@@ -165,7 +165,7 @@
 <NumElts>6</NumElts>
 <SGL>
 <Name>405 Power</Name>
-<Val>0.00000</Val>
+<Val>32.20000</Val>
 </SGL>
 <SGL>
 <Name>488 Power</Name>
@@ -181,7 +181,7 @@
 </SGL>
 <SGL>
 <Name>647 Power</Name>
-<Val>0.00000</Val>
+<Val>0.70000</Val>
 </SGL>
 <SGL>
 <Name>785 Power</Name>
@@ -197,7 +197,7 @@
 <DotNetType>
 <Name>Oxxius_Boxx.Lasers, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x00000000</Val>
+<Val>0xDB500BF0</Val>
 </Refnum>
 <Cluster>
 <Name>Lasers Ref</Name>
@@ -208,7 +208,7 @@
 <DotNetType>
 <Name>Oxxius_Boxx.LaserBoxx, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x00000000</Val>
+<Val>0x70F024BF</Val>
 </Refnum>
 <Refnum>
 <Name>488 Ref</Name>
@@ -216,7 +216,7 @@
 <DotNetType>
 <Name>Oxxius_Boxx.LaserBoxx, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x00000000</Val>
+<Val>0xDB6006DC</Val>
 </Refnum>
 <Refnum>
 <Name>532 Ref</Name>
@@ -240,7 +240,7 @@
 <DotNetType>
 <Name>Oxxius_Boxx.LaserBoxx, Oxxius_Boxx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
 </DotNetType>
-<Val>0x00000000</Val>
+<Val>0xDB700464</Val>
 </Refnum>
 <Refnum>
 <Name>785 Ref</Name>
@@ -259,7 +259,7 @@
 <NumElts>7</NumElts>
 <Path>
 <Name>Log File Base Folder</Name>
-<Val>C:\Users\dxn5173\Documents\LabVIEW Data\Logged Data.tdms</Val>
+<Val>C:\Users\dxn5173\Desktop\Debug</Val>
 </Path>
 <String>
 <Name>FilePrefix</Name>
@@ -297,19 +297,19 @@
 <NumElts>4</NumElts>
 <Boolean>
 <Name>Camera</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>NanoStage</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>MicroStage</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>TIRFLock</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 </Cluster>
 <Cluster>
@@ -324,7 +324,7 @@
 </Boolean>
 <Boolean>
 <Name>488</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>532</Name>
@@ -336,7 +336,7 @@
 </Boolean>
 <Boolean>
 <Name>647</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>785</Name>
@@ -379,12 +379,12 @@
 <Refnum>
 <Name>event callback refnum</Name>
 <RefKind>Event Callback Refnum</RefKind>
-<Val>0x00000000</Val>
+<Val>0xE5F00005</Val>
 </Refnum>
 <Refnum>
 <Name>event callback refnum 2</Name>
 <RefKind>Event Callback Refnum</RefKind>
-<Val>0x00000000</Val>
+<Val>0xE6000000</Val>
 </Refnum>
 <Refnum>
 <Name>event callback refnum 3</Name>

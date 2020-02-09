@@ -195,8 +195,6 @@
 				<Item Name="IMAQ Write Image And Vision Info File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info File 2"/>
 				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
 				<Item Name="IMAQ Write File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write File 2"/>
-				<Item Name="Fire Software-Triggered Timing Source.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/scheduler/LVUserAPI/Fire Software-Triggered Timing Source.vi"/>
-				<Item Name="Build Timing Source Hierarchy.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/scheduler/LVUserAPI/Build Timing Source Hierarchy.vi"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 			</Item>
 			<Item Name="PVCamNET.dll" Type="Document" URL="../HardwareAdapter/Camera/Dependencies/PVCamNET.dll"/>
@@ -222,12 +220,6 @@
 			<Item Name="PVCamNET.dll" Type="Document" URL="/D/SDK/PMQI-LabViewSamples/Examples/Dependencies/PVCamNET.dll"/>
 			<Item Name="TIRF-Lock.vi" Type="VI" URL="../support/TIRF-Lock.vi"/>
 			<Item Name="Move_Rel_FullBit.vi" Type="VI" URL="../HardwareAdapter/Stages/Move_Rel_FullBit.vi"/>
-			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="lvuste.dll" Type="Document" URL="lvuste.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="MMicroscopy" Type="EXE">
