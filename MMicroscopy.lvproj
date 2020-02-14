@@ -49,13 +49,14 @@
 			<Item Name="EstimateAcqTime.vi" Type="VI" URL="../HardwareAdapter/Camera/EstimateAcqTime.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
-			<Item Name="UIReferenceCtl.ctl" Type="VI" URL="../controls/UIReferenceCtl.ctl"/>
-			<Item Name="UI Message Loop Status.ctl" Type="VI" URL="../controls/UI Message Loop Status.ctl"/>
-			<Item Name="Control Loop Status.ctl.ctl" Type="VI" URL="../controls/Control Loop Status.ctl.ctl"/>
-			<Item Name="DeviceStatusCtl.ctl" Type="VI" URL="../controls/DeviceStatusCtl.ctl"/>
-			<Item Name="Image MatadataCtl.ctl" Type="VI" URL="../controls/Image MatadataCtl.ctl"/>
-			<Item Name="CallBack Refs.ctl" Type="VI" URL="../controls/CallBack Refs.ctl"/>
+			<Item Name="UIReferenceCtl.ctl" Type="VI" URL="../Controls/UIReferenceCtl.ctl"/>
+			<Item Name="UI Message Loop Status.ctl" Type="VI" URL="../Controls/UI Message Loop Status.ctl"/>
+			<Item Name="Control Loop Status.ctl.ctl" Type="VI" URL="../Controls/Control Loop Status.ctl.ctl"/>
+			<Item Name="DeviceStatusCtl.ctl" Type="VI" URL="../Controls/DeviceStatusCtl.ctl"/>
+			<Item Name="Image MatadataCtl.ctl" Type="VI" URL="../Controls/Image MatadataCtl.ctl"/>
+			<Item Name="CallBack Refs.ctl" Type="VI" URL="../Controls/CallBack Refs.ctl"/>
 			<Item Name="UIReference And System Config Ctl(Combined).ctl" Type="VI" URL="../Controls/UIReference And System Config Ctl(Combined).ctl"/>
+			<Item Name="Config DataQueues And Notifier Ctl.ctl" Type="VI" URL="../Acquisition/Config DataQueues And Notifier Ctl.ctl"/>
 		</Item>
 		<Item Name="HardwareAdapter" Type="Folder">
 			<Item Name="Support" Type="Folder">
@@ -69,7 +70,6 @@
 				<Item Name="StartLiveAcq.vi" Type="VI" URL="../HardwareAdapter/Camera/StartLiveAcq.vi"/>
 				<Item Name="StartSequenceAcq.vi" Type="VI" URL="../HardwareAdapter/Camera/StartSequenceAcq.vi"/>
 				<Item Name="StartAlbumAcq.vi" Type="VI" URL="../HardwareAdapter/Camera/StartAlbumAcq.vi"/>
-				<Item Name="StartAlbum-TimeLoop.vi" Type="VI" URL="../HardwareAdapter/Camera/StartAlbum-TimeLoop.vi"/>
 				<Item Name="LiveAcquire Callback.vi" Type="VI" URL="../Acquisition/LiveAcquire Callback.vi"/>
 				<Item Name="SequenceAcquire Callback.vi" Type="VI" URL="../Acquisition/SequenceAcquire Callback.vi"/>
 				<Item Name="AlbumAcquire Callback.vi" Type="VI" URL="../Acquisition/AlbumAcquire Callback.vi"/>
@@ -192,8 +192,7 @@
 				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
 				<Item Name="IMAQ Write File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write File 2"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
-				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
-				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
+				<Item Name="IMAQdx Grab.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Grab.vi"/>
 			</Item>
 			<Item Name="PVCamNET.dll" Type="Document" URL="../HardwareAdapter/Camera/Dependencies/PVCamNET.dll"/>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
@@ -218,11 +217,7 @@
 			<Item Name="TIRF-Lock.vi" Type="VI" URL="../support/TIRF-Lock.vi"/>
 			<Item Name="Move_Rel_FullBit.vi" Type="VI" URL="../HardwareAdapter/Stages/Move_Rel_FullBit.vi"/>
 			<Item Name="Prime95BCameraGrapImage.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraGrapImage.vi"/>
-			<Item Name="Snapshot.vi" Type="VI" URL="../HardwareAdapter/Camera/Snapshot.vi"/>
-			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="Acquire.vi" Type="VI" URL="../Acquisition/Acquire.vi"/>
+			<Item Name="CreateImage Array And Reg Acquire Callback.vi" Type="VI" URL="../HardwareAdapter/Camera/CreateImage Array And Reg Acquire Callback.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="MMicroscopy" Type="EXE">
