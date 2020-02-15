@@ -47,6 +47,7 @@
 			<Item Name="CreateImaqArray.vi" Type="VI" URL="../HardwareAdapter/Camera/CreateImaqArray.vi"/>
 			<Item Name="TIRF-LockCalbrate.vi" Type="VI" URL="../support/TIRF-LockCalbrate.vi"/>
 			<Item Name="EstimateAcqTime.vi" Type="VI" URL="../HardwareAdapter/Camera/EstimateAcqTime.vi"/>
+			<Item Name="Update Laser For Log.vi" Type="VI" URL="../support/Update Laser For Log.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UIReferenceCtl.ctl" Type="VI" URL="../Controls/UIReferenceCtl.ctl"/>
@@ -116,7 +117,6 @@
 		<Item Name="Settings.lvlib" Type="Library" URL="../Settings/Settings.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Global.vi" Type="VI" URL="../Global.vi"/>
-		<Item Name="Update Laser For Log.vi" Type="VI" URL="../support/Update Laser For Log.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -244,7 +244,7 @@
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4CB0A01E-1151-4087-9843-0A0601A96E46}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{79A682E2-3AD7-4B39-BF88-4099677FB0E7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
