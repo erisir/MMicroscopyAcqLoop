@@ -67,6 +67,7 @@
 				<Item Name="DetectAndConnectCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/DetectAndConnectCamera.vi"/>
 				<Item Name="DisconnectAndReleaseCamera.vi" Type="VI" URL="../HardwareAdapter/Camera/DisconnectAndReleaseCamera.vi"/>
 				<Item Name="Update Camera Setting.vi" Type="VI" URL="../HardwareAdapter/Camera/Update Camera Setting.vi"/>
+				<Item Name="Snapshot.vi" Type="VI" URL="../HardwareAdapter/Camera/Snapshot.vi"/>
 				<Item Name="StartLiveAcq.vi" Type="VI" URL="../HardwareAdapter/Camera/StartLiveAcq.vi"/>
 				<Item Name="StartSequenceAcq.vi" Type="VI" URL="../HardwareAdapter/Camera/StartSequenceAcq.vi"/>
 				<Item Name="StartAlbumAcq.vi" Type="VI" URL="../HardwareAdapter/Camera/StartAlbumAcq.vi"/>
