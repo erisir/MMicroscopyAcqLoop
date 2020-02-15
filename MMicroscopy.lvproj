@@ -55,7 +55,6 @@
 			<Item Name="DeviceStatusCtl.ctl" Type="VI" URL="../Controls/DeviceStatusCtl.ctl"/>
 			<Item Name="Image MatadataCtl.ctl" Type="VI" URL="../Controls/Image MatadataCtl.ctl"/>
 			<Item Name="CallBack Refs.ctl" Type="VI" URL="../Controls/CallBack Refs.ctl"/>
-			<Item Name="UIReference And System Config Ctl(Combined).ctl" Type="VI" URL="../Controls/UIReference And System Config Ctl(Combined).ctl"/>
 			<Item Name="Config DataQueues And Notifier Ctl.ctl" Type="VI" URL="../Acquisition/Config DataQueues And Notifier Ctl.ctl"/>
 		</Item>
 		<Item Name="HardwareAdapter" Type="Folder">
@@ -217,7 +216,6 @@
 			</Item>
 			<Item Name="TIRF-Lock.vi" Type="VI" URL="../support/TIRF-Lock.vi"/>
 			<Item Name="Move_Rel_FullBit.vi" Type="VI" URL="../HardwareAdapter/Stages/Move_Rel_FullBit.vi"/>
-			<Item Name="Prime95BCameraGrapImage.vi" Type="VI" URL="../HardwareAdapter/Camera/Prime95BCameraGrapImage.vi"/>
 			<Item Name="CreateImage Array And Reg Acquire Callback.vi" Type="VI" URL="../HardwareAdapter/Camera/CreateImage Array And Reg Acquire Callback.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -245,7 +243,7 @@
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B96FAC32-6282-4D30-B474-2798AB1B8AD8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4668DC9C-81A1-438F-A5C5-BF83F7879AA3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>

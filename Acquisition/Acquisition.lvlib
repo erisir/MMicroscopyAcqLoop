@@ -12,7 +12,6 @@
 		<Item Name="Acquisition State.ctl" Type="VI" URL="../Acquisition State.ctl"/>
 	</Item>
 	<Item Name="Acquisition Message Loop.vi" Type="VI" URL="../Acquisition Message Loop.vi"/>
-	<Item Name="Acquire.vi" Type="VI" URL="../Acquire.vi"/>
 	<Item Name="Error Handler - Acquisition Message Loop.vi" Type="VI" URL="../Error Handler - Acquisition Message Loop.vi"/>
 	<Item Name="Stop Acquisition.vi" Type="VI" URL="../Stop Acquisition.vi"/>
 	<Item Name="Camera Status Callback.vi" Type="VI" URL="../Camera Status Callback.vi"/>
