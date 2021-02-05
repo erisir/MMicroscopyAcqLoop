@@ -58,6 +58,7 @@
 			<Item Name="Image MatadataCtl.ctl" Type="VI" URL="../controls/Image MatadataCtl.ctl"/>
 			<Item Name="CallBack Refs.ctl" Type="VI" URL="../controls/CallBack Refs.ctl"/>
 			<Item Name="Config DataQueues And Notifier Ctl.ctl" Type="VI" URL="../Acquisition/Config DataQueues And Notifier Ctl.ctl"/>
+			<Item Name="ROI.ctl" Type="VI" URL="../controls/ROI.ctl"/>
 		</Item>
 		<Item Name="HardwareAdapter" Type="Folder">
 			<Item Name="Support" Type="Folder">
@@ -75,6 +76,9 @@
 				<Item Name="LiveAcquire Callback.vi" Type="VI" URL="../Acquisition/LiveAcquire Callback.vi"/>
 				<Item Name="SequenceAcquire Callback.vi" Type="VI" URL="../Acquisition/SequenceAcquire Callback.vi"/>
 				<Item Name="AlbumAcquire Callback.vi" Type="VI" URL="../Acquisition/AlbumAcquire Callback.vi"/>
+				<Item Name="Calculate Stack Size.vi" Type="VI" URL="../Calculate Stack Size.vi"/>
+				<Item Name="SetROI.vi" Type="VI" URL="../HardwareAdapter/Camera/SetROI.vi"/>
+				<Item Name="SetBinning.vi" Type="VI" URL="../HardwareAdapter/Camera/SetBinning.vi"/>
 			</Item>
 			<Item Name="Stages" Type="Folder">
 				<Item Name="Stage Ctrl.ctl" Type="VI" URL="../HardwareAdapter/Stages/Stage Ctrl.ctl"/>
