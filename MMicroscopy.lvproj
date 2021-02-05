@@ -122,6 +122,11 @@
 		<Item Name="Settings.lvlib" Type="Library" URL="../Settings/Settings.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Global.vi" Type="VI" URL="../Global.vi"/>
+		<Item Name="Callback Input.ctl" Type="VI" URL="../Acquisition/Callback Input.ctl"/>
+		<Item Name="Acquisition Control.ctl" Type="VI" URL="../Acquisition/Acquisition Control.ctl"/>
+		<Item Name="Runtime Parameters.vi" Type="VI" URL="../controls/Runtime Parameters.vi"/>
+		<Item Name="UserSetting.ctl" Type="VI" URL="../Acquisition/UserSetting.ctl"/>
+		<Item Name="Runtime Parameters.ctl" Type="VI" URL="../controls/Runtime Parameters.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>

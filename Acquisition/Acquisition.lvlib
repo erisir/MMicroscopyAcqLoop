@@ -15,4 +15,5 @@
 	<Item Name="Error Handler - Acquisition Message Loop.vi" Type="VI" URL="../Error Handler - Acquisition Message Loop.vi"/>
 	<Item Name="Stop Acquisition.vi" Type="VI" URL="../Stop Acquisition.vi"/>
 	<Item Name="Camera Status Callback.vi" Type="VI" URL="../Camera Status Callback.vi"/>
+	<Item Name="Check Acquistion Setting.vi" Type="VI" URL="../Check Acquistion Setting.vi"/>
 </Library>
