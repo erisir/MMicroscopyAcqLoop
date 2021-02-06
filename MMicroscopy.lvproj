@@ -59,6 +59,10 @@
 			<Item Name="CallBack Refs.ctl" Type="VI" URL="../controls/CallBack Refs.ctl"/>
 			<Item Name="Config DataQueues And Notifier Ctl.ctl" Type="VI" URL="../Acquisition/Config DataQueues And Notifier Ctl.ctl"/>
 			<Item Name="ROI.ctl" Type="VI" URL="../controls/ROI.ctl"/>
+			<Item Name="Runtime Parameters.ctl" Type="VI" URL="../controls/Runtime Parameters.ctl"/>
+			<Item Name="Callback Input.ctl" Type="VI" URL="../Acquisition/Callback Input.ctl"/>
+			<Item Name="Acquisition Control.ctl" Type="VI" URL="../Acquisition/Acquisition Control.ctl"/>
+			<Item Name="UserSetting.ctl" Type="VI" URL="../Acquisition/UserSetting.ctl"/>
 		</Item>
 		<Item Name="HardwareAdapter" Type="Folder">
 			<Item Name="Support" Type="Folder">
@@ -76,7 +80,7 @@
 				<Item Name="LiveAcquire Callback.vi" Type="VI" URL="../Acquisition/LiveAcquire Callback.vi"/>
 				<Item Name="SequenceAcquire Callback.vi" Type="VI" URL="../Acquisition/SequenceAcquire Callback.vi"/>
 				<Item Name="AlbumAcquire Callback.vi" Type="VI" URL="../Acquisition/AlbumAcquire Callback.vi"/>
-				<Item Name="Calculate Stack Size.vi" Type="VI" URL="../Calculate Stack Size.vi"/>
+				<Item Name="Calculate Stack Size.vi" Type="VI" URL="../Acquisition/Calculate Stack Size.vi"/>
 				<Item Name="SetROI.vi" Type="VI" URL="../HardwareAdapter/Camera/SetROI.vi"/>
 				<Item Name="SetBinning.vi" Type="VI" URL="../HardwareAdapter/Camera/SetBinning.vi"/>
 			</Item>
@@ -111,6 +115,7 @@
 		</Item>
 		<Item Name="Conversion" Type="Folder">
 			<Item Name="RGBToU8Intensity.vi" Type="VI" URL="../Conversion/RGBToU8Intensity.vi"/>
+			<Item Name="Cover Rectangle Point to ROI.vi" Type="VI" URL="../Acquisition/Cover Rectangle Point to ROI.vi"/>
 		</Item>
 		<Item Name="SandBox" Type="Folder">
 			<Item Name="Prime95BCameraSimpleOperationACQ.vi" Type="VI" URL="../SandBox/Prime95BCameraSimpleOperationACQ.vi"/>
@@ -122,12 +127,6 @@
 		<Item Name="Settings.lvlib" Type="Library" URL="../Settings/Settings.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Global.vi" Type="VI" URL="../Global.vi"/>
-		<Item Name="Callback Input.ctl" Type="VI" URL="../Acquisition/Callback Input.ctl"/>
-		<Item Name="Acquisition Control.ctl" Type="VI" URL="../Acquisition/Acquisition Control.ctl"/>
-		<Item Name="Runtime Parameters.vi" Type="VI" URL="../controls/Runtime Parameters.vi"/>
-		<Item Name="UserSetting.ctl" Type="VI" URL="../Acquisition/UserSetting.ctl"/>
-		<Item Name="Runtime Parameters.ctl" Type="VI" URL="../controls/Runtime Parameters.ctl"/>
-		<Item Name="Cover Rectangle Point to ROI.vi" Type="VI" URL="../Acquisition/Cover Rectangle Point to ROI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
