@@ -127,6 +127,7 @@
 		<Item Name="Runtime Parameters.vi" Type="VI" URL="../controls/Runtime Parameters.vi"/>
 		<Item Name="UserSetting.ctl" Type="VI" URL="../Acquisition/UserSetting.ctl"/>
 		<Item Name="Runtime Parameters.ctl" Type="VI" URL="../controls/Runtime Parameters.ctl"/>
+		<Item Name="Cover Rectangle Point to ROI.vi" Type="VI" URL="../Acquisition/Cover Rectangle Point to ROI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -281,22 +282,23 @@
 				<Property Name="Bld_buildSpecName" Type="Str">MMicroscopy</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../RM21-MMicrosope-Latest-Release</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/RM21-MMicrosope-Latest-Release</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B1B2A711-D696-4C82-A956-2E5555B6D5C4}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MMicroscopy.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../RM21-MMicrosope-Latest-Release/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/RM21-MMicrosope-Latest-Release/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../RM21-MMicrosope-Latest-Release/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/RM21-MMicrosope-Latest-Release/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{738084F8-EEC0-4A91-A49A-7C78AD15B09B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A23E687F-47BB-4A8F-BF46-C77501A6AEAF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
